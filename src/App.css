@@ -4,7 +4,9 @@
 body {
     width: 100vw;
     overflow-x: hidden;
+    
 }
+
 /* start of all nav */
 /* Start of First Nav */
 .MainFooterDiv{
@@ -380,6 +382,13 @@ body {
 
 
 /* Start of Main Home Style (1st Section) */
+.MainHomeMAinDiv {
+    background-image: url(./photos/Rotatedpic.png), url(./photos/Rotatedpic.png) !important;
+    background-repeat: no-repeat;
+    background-position: -0% , 100% ;
+}
+
+
 .MainHomeCont {
     display: flex;
     flex-direction: column;
@@ -387,6 +396,9 @@ body {
     align-items: center;
     gap: 20px;
     padding-bottom: 50px;
+    
+    
+
 }
 .MainHomeRowFDiv {
     display: flex;
@@ -431,7 +443,7 @@ body {
 
 /* Start of Main Home Style (2nd Section) */
 .MainHomeSecCont {
-    background-color: #707070c8;
+    background-color: #7070706b;
     overflow-x: hidden;
 }
 .MainHomeSecCont img {
@@ -478,7 +490,7 @@ body {
     width: 100vw;
     overflow-x: hidden;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: nowrap !important;
     padding-top: 100px;
@@ -491,7 +503,7 @@ body {
     align-items: end;
     justify-content: baseline;
     padding: 20px 30px;
-    background-color: #f5f9f8;
+    background-color: #e1fcf57f;
     border-radius: 20px;
 }
 .MainHomeThirdLeftCol h3 {

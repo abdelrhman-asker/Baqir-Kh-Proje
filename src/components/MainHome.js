@@ -9,7 +9,8 @@ import ShkBaqer from "../photos/ShkBaqer.png"
 import { Link } from "react-router-dom";
 const MainHome = () => {
   return (
-    <div>
+    <div className='MainHomeMAinDiv'>
+        
         <MainNav />
 
           <Container  className='MainHomeCont'>
@@ -53,7 +54,7 @@ const MainHome = () => {
 
           <Col xs={12} xl={10}  className='MainHomeThirdCont'>
             <Row className='MainHomeThirdRow' xs={12}>
-              <Col xs={6} md={6} className='MainHomeThirdLeftCol' >
+              <Col xs={6} md={5} className='MainHomeThirdLeftCol' >
               <div>
                 <h3>
                 الشيخ باقر، العلامة والقاضي والأديب
