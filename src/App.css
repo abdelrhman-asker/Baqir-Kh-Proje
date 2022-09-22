@@ -1,38 +1,611 @@
-.App {
-  text-align: center;
+.navbar-toggler:focus {
+    box-shadow: none !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    width: 100vw;
+    overflow-x: hidden;
 }
+/* start of all nav */
+/* Start of First Nav */
+.MainFooterDiv{
+    background-image: url(./photos/الشكل.png);
+    padding-bottom: 100px;
+    overflow: visible;
+    background-repeat: no-repeat;
+    background-position: 40%;
+   
+}
+.navbar-toggler {
+    color: #707070 !important;
+    font-size: 32px !important;
+    position:  absolute;
+    top: 0%;
+    right: 12%;
+    
+}
+.dropdown-menu {
+    background-color: rgb(240, 240, 240) !important;
+}
+.NavDropDownItem {
+    background-color: rgb(240, 240, 240) !important;
+}
+.NavDropDownItem  a {
+    display: flex;
+    justify-content: start;
+}
+.navbar-nav {
+    --bs-nav-link-color: #707070 !important;
+}
+.navbar-nav a:hover {
+    --bs-nav-link-color: #707070 !important;
+}
+.NavDropDownStyle a {
+    color: #707070 !important;
+    text-decoration: none;
+    float: right;
+}
+.NavDropDownStyle a:hover {
+    color: #707070 !important;
+}
+.NavDropDownStyle a:hover {
+    color: #707070 !important;
+}
+.NavDropDownLinks {
+    color: white;
+    text-decoration: none;
+    float: right;
+    height: fit-content;
+    width: fit-content;
+    margin: 5px;
+}
+.NavDropDownLinks:hover {
+    color: white;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+}
+.MainNavlinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.MainNavlinks a {
+    text-decoration: none;
+    color:  #707070;
+    font-size: 16px;
+}
+  .MainNavlinks a:hover {
+    color:  #707070;
+}
+.SearchLinksRight {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.wrapper .search-input{
+    background: #fff;
+    color: black;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 1px solid black;
+    position: relative;
+    height: fit-content;
+    width: 156px;
+
   }
-}
+  .search-input input{
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    padding: 0 10px 0 20px;
+    font-size: 18px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+    height: fit-content;
+    position: relative;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  .search-input input:focus{
+    box-shadow: none;
   }
+  .search-input.active input{
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .search-input .autocom-box{
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    max-height: 280px;
+    overflow-y: auto;
+    
+  }
+  
+  .search-input.active .autocom-box{
+    padding: 10px 8px;
+    opacity: 1;
+    pointer-events: auto;
+    
+  }
+  .search-input.active .autocom-box li{
+    display: block;
+    
+  }
+  .autocom-box li:hover{
+    background: #efefef;
+  }
+  
+  .search-input .icon{
+    position: absolute;
+    left: 0px;
+    top: -5px;
+    width: 35px;
+    text-align: center;
+    font-size: 20px;
+    color:  #E6E6E6;
+    cursor: pointer;
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    float: right;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    float: right;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    float: right;
+  }
+  /* End of First Nav */
+
+/* Start of  Green Nav Section */
+.MainGreenNav {
+    background-color: #1d733f58;
+    padding-top: 30px ;
+
 }
+.MainGreenNavRow {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-bottom: 20px;
+    
+}
+.MainGreenNavRow div{
+    padding: 0;
+    
+}
+.NavDropDownStyleDrop {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+.NavDropDownStyleDrop a {
+    color: #707070 !important;
+    text-decoration: none;
+    float: right;
+}
+.NavDropDownStyleDrop a:active {
+    background-color: rgba(255, 255, 255, 0.225);
+    
+}
+.NavDropDownStyleDrop a:hover {
+    color: #707070 !important;
+}
+.NavDropDownStyleDrop a:hover {
+    color: #707070 !important;
+}
+.NavDropDownStyleGr {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+.NavDropDownStyleGr a {
+    color: #707070 !important;
+    text-decoration: none;
+    float: right;
+}
+
+.LastNavCont {
+    max-width: 100% !important;
+}
+.LastNavRow {
+    justify-content: space-between !important;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.LastNavRow .col {
+    text-align: center !important;
+}
+.LastNavPara {
+    padding: 20px 20px;
+    background-color: #d9751773;
+    border-radius: 10px;
+    width: fit-content;
+    color: white;
+    text-align: center;
+    margin: 0% !important;
+    font-size: 25px;
+}
+.HidAndBlock {
+    display: none !important;
+    height: 100vh;
+}
+
+@media screen and (min-width:1px ) and (max-width:992px) {
+    .ToMakeHundHei  {
+        height: 100vh;
+    }
+    .MainGreenNavCont{
+        display: none;
+    }
+    .LastNavPara {
+        font-size: 10px;
+    }
+    .LastNavRow img {
+        width: 100px;
+    }
+    .SearchLinksRight {
+        display: none;
+    }
+    .DropDownFixedStyling{
+    position: fixed;
+    z-index: 2;
+    top: 6%;
+    right: 0;
+    width: 30%;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    }
+    .NavDropDownStyle {
+        text-align: center;
+        margin: 10px;
+        height: fit-content;
+
+
+    }
+    .NavDropDownStyle a {
+        float: none;
+    }
+    .MainFooterDiv{
+        padding-bottom: 50px;
+        background-position: 25%;
+        background-size: contain;
+    }
+    .DivToCloseSideNav{
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 70%;
+        background-color: rgba(0, 0, 0, 0.225);
+        display: none;
+    }
+    .HidAndBlock {
+        display: block !important;
+    }
+}
+@media screen and (min-width:1px ) and (max-width:510px) {
+
+.DropDownFixedStyling{
+    width: 100%;
+    z-index: 4;
+    
+    }
+    .DivToCloseSideNav{
+        width: 0;
+        display: none;
+
+    }
+.navbar-toggler {
+    color: #707070 !important;
+    font-size: 32px !important;
+    position:  absolute;
+    top: 0%;
+}}
+
+/* End of  Green Nav Section */
+/* End of  Green Nav Section */
+
+
+/* Start of Footer Style */
+.MainFooterdiv {
+    background-color: #1d733f58;
+    width: 100vw;
+    overflow-x: hidden;
+    padding: 50px 0 10px;
+}
+.FirstFooterCont {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
+.FirstFooterCont a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.632);
+    font-size: 14px;
+}
+.FirstFooterCont a:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.632);
+}
+.ColFooterCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ColFooterCont h4{
+    font-size: 22px;
+}
+.ColFooterCont div {
+    text-align: end;
+}
+.ColFooterContDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.LastImgFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0 20px;
+}
+.LastFooterPara h4 {
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    direction: rtl;
+    color: black;
+    opacity: 0.3;
+}
+
+@media screen and (min-width:1px) and (max-width:510px) {
+    .ColFooterCont h4{
+        font-size: 12px;
+    }
+    .FirstFooterCont a {
+        font-size: 8px;
+    }
+    .LastFooterPara h4 {
+        font-size: 10px;
+    }
+}
+/* End of Footer Style */
+
+
+/* Start of Main Home Style (1st Section) */
+.MainHomeCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: Start;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+.MainHomeRowFDiv {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+}
+.MainHomeRowFDiv h3 {
+    margin-bottom: 0;
+    font-size: 30px;
+    color: #707070;
+}
+.MainHomeRowSDiv {
+    direction: rtl;
+    display: flex;
+    justify-content: end;
+    text-align: center;
+}
+.MainHomeRowSDiv h4 {
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 35px;
+    color: #707070;
+}
+.MainHomeLinkCol {
+    display: flex;
+    justify-content: center;
+}
+.MainHomeLinkCol a {
+   text-decoration: none;
+   padding: 5px 10px;
+   font-size: 18px;
+   background-color: #D97417;
+   color: white;
+   border-radius: 10px;
+}
+.MainHomeLinkCol a:hover{
+    color: white;
+}
+/* End of Main Home Style (1st Section) */
+
+/* Start of Main Home Style (2nd Section) */
+.MainHomeSecCont {
+    background-color: #707070c8;
+    overflow-x: hidden;
+}
+.MainHomeSecCont img {
+    width: 292px;
+    height: 197px;
+    margin-bottom: 20px;
+}
+.MainHomeSecRow {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0;
+}
+.MainHomeColPressHere {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.PrevPressHereText {
+    font-size: 40px;
+    color: #414141;
+}
+.MainHomeSecRow a {
+    padding: 10px 15px;
+    color: white;
+    background-color: #D97417;
+    text-decoration: none;
+    border-radius: 15px;
+    
+}
+.MainHomeSecRow a:hover {
+    color: white;
+    background-color: #D97417;
+
+}
+
+/* End of Main Home Style (2nd Section) */
+
+/* Start of Main Home Style (3nd Section) */
+
+.MainHomeThirdRow{
+    width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap !important;
+    padding-top: 100px;
+    margin:0 0 300px !important;
+}
+.MainHomeThirdLeftCol {
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    align-items: end;
+    justify-content: baseline;
+    padding: 20px 30px;
+    background-color: #f5f9f8;
+    border-radius: 20px;
+}
+.MainHomeThirdLeftCol h3 {
+    font-size: 30px;
+}
+.MainHomeThirdLeftCol h4 {
+    font-size: 22px;
+    line-height: 40px;
+}
+.MainHomeHorzPics {
+    align-self: center;
+    padding-top: 20px;
+}
+.MainHomeShkBaqer{
+     height:465px !important;
+     border-radius: 25px;
+}
+.MainHomeShkBaqerCol {
+    text-align: center;
+
+}
+.LastLinkMainHome {
+    text-decoration:underline;
+    color: #D97417;
+    margin-right: 20px;
+    direction: rtl;
+
+}
+.LastLinkMainHome:hover {
+    text-decoration:underline;
+    color: #D97417;
+}
+@media screen and (min-width:1px) and (max-width:768px) { 
+    .MainHomeShkBaqer {
+        width: 260px !important;
+         height:290px !important;
+    }
+    .MainHomeThirdLeftCol h3 {
+        font-size: 10px;
+    }
+    .MainHomeThirdLeftCol h4 {
+        font-size: 8px;
+        line-height: 30px;
+    }
+
+
+
+}
+
+
+
+@media screen and (min-width:1px) and (max-width:576px) {
+    .MainHomeShkBaqer {
+        width:180px !important;
+         height:184px !important;
+    }
+    .MainHomeThirdLeftCol h3 {
+        font-size: 10px;
+    }
+    .MainHomeThirdLeftCol h4 {
+        font-size: 8px;
+        line-height: 20px;
+    }
+    .MainHomeThirdRow{
+        margin:0 0 150px !important;
+    }
+}
+
+/* End of Main Home Style (3nd Section) */
+
+/* Start of Main Home Expand Style */
+
+.MainHomeExMainDiv{
+    background-image: url(./photos/Rotatedpic.png), url(./photos/Rotatedpic.png);
+    background-position: -25% 80% , 100% 65%;
+    background-repeat: no-repeat;
+}
+.MainHomeRowFContExpand{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    margin-bottom: 80px;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.MainHomeRowFDivExpand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+}
+.MainHomeRowFDivExpand h3 {
+    margin-bottom: 0;
+    color: #707070;
+
+}
+
+.MainHomeexpandDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #707070 ;
+    font-family: Noor;
+}
+@media screen and (min-width:1px) and (max-width:510px) {
+    .MainHomeRowFDivExpand {
+        font-size: 10px;
+    }
+}
+/* End of Main Home Expand Style */
