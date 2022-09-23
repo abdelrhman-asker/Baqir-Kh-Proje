@@ -214,6 +214,7 @@ body {
     justify-content: space-between !important;
     align-items: center;
     flex-wrap: nowrap;
+
 }
 .LastNavRow .col {
     text-align: center !important;
@@ -228,12 +229,21 @@ body {
     margin: 0% !important;
     font-size: 25px;
 }
+.LastNavMaqirCol {
+    align-self: flex-end;
+}
 .HidAndBlock {
     display: none !important;
     height: 100vh;
 }
-
+.CanvasStylingOnNAv {
+    display: none;
+}
 @media screen and (min-width:1px ) and (max-width:992px) {
+    .CanvasStylingOnNAv {
+        display: block;
+    } 
+   
     .ToMakeHundHei  {
         height: 100vh;
     }
@@ -250,17 +260,7 @@ body {
         display: none;
     }
     .DropDownFixedStyling{
-    position: fixed;
-    z-index: 2;
-    top: 6%;
-    right: 0;
-    width: 30%;
-    height: fit-content;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
+    display: none;
     }
     .NavDropDownStyle {
         text-align: center;

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Container, Row, Col } from 'reactstrap'
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -11,29 +11,17 @@ import { AiOutlineWhatsApp } from 'react-icons/ai';
 import { AiOutlineInstagram } from 'react-icons/ai';
 import { FiTwitter } from 'react-icons/fi';
 import { Link } from "react-router-dom";
-import {CgFormatJustify} from "react-icons/cg"
 import Maqir from "../photos/Group 39.png"
 import Logo from "../photos/اللوجو.png"
-import Offcanvas from 'react-bootstrap/Offcanvas';
-
+import Canvas from "./Canvas"
 
 const MainNav = () => {
 
-    const [isShown, setIsShown] = useState(true);
-  
-    const handleClick = event => {
-      // 👇️ toggle visibility
-      setIsShown(current => !current);
-    }; 
-    const [isShown2, setIsShown2] = useState(true);
-  
-    const handleClick2 = event => {
-      // 👇️ toggle visibility
-      setIsShown2(current => !current);
-    }; 
+    
 
   return (
     <div className='MainFooterDiv'>
+      
        <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">
       <Container style={{height:"5vh"}}>
         <Navbar.Brand href="#home">
@@ -56,9 +44,8 @@ const MainNav = () => {
                   </div>
           </Col>
         </Navbar.Brand>
-        
-        <Navbar.Toggle className="TogglerFixing"  onClick={handleClick}  aria-controls="responsive-navbar-nav" ><CgFormatJustify/></Navbar.Toggle> 
-        <div onClick={handleClick2} style={{display: isShown ? 'none' : 'block' }}   className='DivToCloseSideNav'></div>
+        <Canvas  />
+
         <div    className='DropDownFixedStyling'>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto ToMakeHundHei">
@@ -86,76 +73,7 @@ const MainNav = () => {
               <Link to="/AboutUs"> من نحن </Link>
               </Nav.Link>
 
-            <Nav.Link className='NavDropDownStyle HidAndBlock' href="#pricing">
-            <Link to="/">   الرئيسيه </Link>
-            </Nav.Link>
-
-            <Nav.Link className='NavDropDownStyle HidAndBlock' href="#pricing">
-            <Link to="/AboutBaqir">  مجالات الجائزه </Link>
-            </Nav.Link>
-
-            <NavDropdown className='NavDropDownStyle HidAndBlock' style={{direction:'rtl'}}
-              id="nav-dropdown-dark-example"
-              title=" عن الجائزه "
-              menuVariant="dark">
-              <NavDropdown.Item  className='NavDropDownItem'>  
-                <Link to="/PrizeِAbout">  التعريف بها </Link>
-                </NavDropdown.Item>
-              <NavDropdown.Item  className='NavDropDownItem'>  
-                <Link to="/َPrizeَِQuest">   الرؤيه والرساله والاهداف </Link>
-                </NavDropdown.Item>
-              <NavDropdown.Item  className='NavDropDownItem'>  
-                <Link to="/َPrizeNeeds">    متطلبات عامه </Link>
-                </NavDropdown.Item>
-              <NavDropdown.Item  className='NavDropDownItem'>  
-                <Link to="/َPrizeSign">     خطوات التقديم علي الجائزه </Link>
-                </NavDropdown.Item>
-              <NavDropdown.Item  className='NavDropDownItem'>  
-                <Link to="/َPrizeArbit">   شئون التحكيم   </Link>
-                </NavDropdown.Item>
-            </NavDropdown>
-            
-            <Nav.Link className='NavDropDownStyle HidAndBlock' href="#features">
-            <Link to="/PrizeCo">  مجالات الجائزه </Link>
-              </Nav.Link>
-            
-              
-            <NavDropdown className='NavDropDownStyle HidAndBlock' style={{direction:'rtl'}}
-              id="nav-dropdown-dark-example"
-              title="سجل الشرف"
-              menuVariant="dark">
-              <NavDropdown.Item className='NavDropDownItem'>  
-                <Link to="/Discretion">  القديريه </Link>
-                </NavDropdown.Item >
-              <NavDropdown.Item className='NavDropDownItem'>  
-                <Link to="/َQuotes">  مجال الشعر </Link>
-                </NavDropdown.Item>
-              <NavDropdown.Item className='NavDropDownItem'>  
-                <Link to="/HumanSc">  مجال العلوم الاساسيه </Link>
-                </NavDropdown.Item>
-              <NavDropdown.Item className='NavDropDownItem'>  
-                <Link to="/MedicalSc">   مجال العلوم الطبيه </Link>
-                </NavDropdown.Item>
-              <NavDropdown.Item className='NavDropDownItem'>  
-                <Link to="/AgrSc">  مجال الزراعيه   </Link>
-                </NavDropdown.Item>
-              <NavDropdown.Item className='NavDropDownItem'>  
-                <Link to="/EngSc">  مجال الهندسيه </Link>
-                </NavDropdown.Item>
-            </NavDropdown>
-
-              <Nav.Link className='NavDropDownStyle HidAndBlock' href="#features">
-            <Link to="/Partners"> الشركاء والداعمون </Link>
-              </Nav.Link>
-
-            <NavDropdown className='NavDropDownStyle HidAndBlock' style={{direction:'rtl'}}
-              id="collasible-nav-dropdown"
-              title="المركز الاعلامي"
-              menuVariant="dark">
-              <NavDropdown.Item className='NavDropDownItem'  >  
-                <Link to="/"> 2023 حفل عام</Link>
-                </NavDropdown.Item>
-            </NavDropdown>
+           
 
 
           </Nav>
@@ -248,13 +166,13 @@ const MainNav = () => {
 
     <Container className='LastNavCont'>
       <Row className='LastNavRow'>
-        <Col>
+        <Col className='LastNavMaqirCol'>
         <img   src={Maqir} />
         </Col>
-        <Col>
+        <Col className='LastNavParaCol'>
         <h3 className='LastNavPara'>حمل نموذج التقديم للمنافسه علي الجائزه </h3>
         </Col>
-        <Col>
+        <Col >
         <Link to="/">
         <img  src={Logo} /></Link>
         </Col>
