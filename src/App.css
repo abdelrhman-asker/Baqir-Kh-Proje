@@ -2,8 +2,11 @@
     box-shadow: none !important;
 }
 @font-face {
-    font-family: Noor;
+    font-family:Noor;
     src: url(./Fonts/NootFont.ttf);
+}
+*{
+    font-family: Noor;
 }
 body {
     width: 100vw;
@@ -742,6 +745,7 @@ body {
 .ReqStepsRowsMain h3 {
     font-size: 20px;
     color: #707070;
+    line-height: 40px;
 
 }
 .ReqStepsSpanMain {
