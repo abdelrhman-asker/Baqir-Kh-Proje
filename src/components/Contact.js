@@ -50,7 +50,7 @@ const Contact = () => {
             <textarea className='StyleTextwidth' placeholder='...نص الاستفسار' id='Name' type="text" required />
         </div>
         <div className="submitButStyleDiv ">
-        <input  className="submitButStyle " type="submit" formAction='/' value="submit"/>
+        <input  className="submitButStyle " type="submit" formAction='/' value="تسليم"/>
         </div>
 
 

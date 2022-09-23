@@ -5,6 +5,7 @@ import MainHomeExpand from './components/MainHomeExpand';
 import AboutBaqir from './components/AboutBaqir';
 import ReqSteps from './components/ReqSteps';
 import AboutUs from './components/AboutUs';
+import PrizeCo from './components/PrizeCo';
 import 'bootstrap/dist/css/bootstrap.css';
 import Contact from "./components/Contact"
 import { BrowserRouter, Route, Router, Routes, Link, NavLink } from 'react-router-dom'
@@ -21,6 +22,7 @@ const App = () => {
           <Route path='/AboutBaqir' element={<AboutBaqir />} />
           <Route path='/ReqSteps' element={<ReqSteps />} />
           <Route path='/AboutUs' element={<AboutUs />} />
+          <Route path='/PrizeCo' element={<PrizeCo />} />
         </Routes>
       </BrowserRouter>
     </div>

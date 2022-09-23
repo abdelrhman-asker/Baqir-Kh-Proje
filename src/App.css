@@ -364,11 +364,18 @@ body {
 }
 .ColFooterCont div {
     text-align: end;
+    
 }
 .ColFooterContDiv {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+.ColFooterContDiv div {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    flex-wrap: nowrap;
 }
 .LastImgFooter {
     display: flex;
@@ -636,12 +643,15 @@ color: #707070;
 .MainHomeexpandDiv {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 40px;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: #707070 ;
     font-family: Noor;
+}
+.MainHomeexpandDiv span {
+    font-family: Almarai ;
 }
 @media screen and (min-width:1px) and (max-width:510px) {
     .MainHomeRowFDivExpand {
@@ -862,7 +872,8 @@ color: #707070;
     color:white;
     opacity: 0.7;
     transition-duration: 0.25s ;
-    width: 10%;
+    width: 15%;
+    font-family: Almarai;
     
 }
 .submitButStyle:hover {
@@ -886,3 +897,13 @@ color: #707070;
     margin-bottom: 20px;
 }
 /* End of  AboutUs Section */
+
+/* start of PrizeCo Section */
+.FirstSecPrizeCo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+/* End of PrizeCo Section */
