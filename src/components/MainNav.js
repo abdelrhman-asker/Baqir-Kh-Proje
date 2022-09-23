@@ -24,7 +24,7 @@ const MainNav = () => {
       
        <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">
       <Container style={{height:"5vh"}}>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand>
         <Col col={4} className="SearchLinksRight" >
        
             <div className='MainNavlinks'>
@@ -49,7 +49,7 @@ const MainNav = () => {
         <div    className='DropDownFixedStyling'>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto ToMakeHundHei">
-          <NavDropdown className='NavDropDownStyle' title="حسابي" style={{direction:'rtl'}} id="collasible-nav-dropdown">
+          <NavDropdown className='NavDropDownStyle' title="حسابي" style={{direction:'rtl'}} id="dropdown-autoclose-inside" >
               <NavDropdown.Item className='NavDropDownItem' >
                 <Link className='NavDropDownLinks' to='/Profile-Info'>المعلومات الشخصيه</Link>
               </NavDropdown.Item>
@@ -65,11 +65,11 @@ const MainNav = () => {
              
             </NavDropdown>
 
-            <Nav.Link className='NavDropDownStyle' href="#features">
+            <Nav.Link className='NavDropDownStyle' >
               <Link  to="/Contact"> التواصل وادعم </Link>
               </Nav.Link>
 
-            <Nav.Link className='NavDropDownStyle' href="#pricing">
+            <Nav.Link className='NavDropDownStyle'>
               <Link to="/AboutUs"> من نحن </Link>
               </Nav.Link>
 

@@ -4,6 +4,7 @@ import MainHome from './components/MainHome';
 import MainHomeExpand from './components/MainHomeExpand';
 import AboutBaqir from './components/AboutBaqir';
 import ReqSteps from './components/ReqSteps';
+import AboutUs from './components/AboutUs';
 import 'bootstrap/dist/css/bootstrap.css';
 import Contact from "./components/Contact"
 import { BrowserRouter, Route, Router, Routes, Link, NavLink } from 'react-router-dom'
@@ -19,6 +20,7 @@ const App = () => {
           <Route path='/MainHomeExpand' element={<MainHomeExpand />} />
           <Route path='/AboutBaqir' element={<AboutBaqir />} />
           <Route path='/ReqSteps' element={<ReqSteps />} />
+          <Route path='/AboutUs' element={<AboutUs />} />
         </Routes>
       </BrowserRouter>
     </div>
