@@ -239,6 +239,9 @@ body {
 .CanvasStylingOnNAv {
     display: none;
 }
+.CanvasStylingOnNAv button {
+    padding: 0 !important;
+}
 @media screen and (min-width:1px ) and (max-width:992px) {
     .CanvasStylingOnNAv {
         display: block;
@@ -584,13 +587,13 @@ body {
 .MainHomeRowFContExpand{
     display: flex;
     flex-direction: column;
-    gap: 50px;
     justify-content: center;
     align-items: center;
     direction: rtl;
     margin-bottom: 80px;
     width: 100vw;
     overflow-x: hidden;
+    gap: 40px;
 }
 .MainHomeRowFDivExpand {
     display: flex;
@@ -622,3 +625,75 @@ body {
     }
 }
 /* End of Main Home Expand Style */
+
+/* Start of About Baqir Page */
+.AboutBaqirTextAImg {
+    width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap !important;
+    padding-top: 100px;
+    margin: auto;
+}
+.AboutBaqirMainDiv  span {
+    font-size: 22px;
+}
+.AboutBaqirMainDiv  h4 {
+    font-size: 22px;
+}
+.AboutBaqirTextAImgLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.AboutBaqirDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #707070 ;
+    font-family: Noor;
+}
+.AbuutBaqirShkBaqer{
+    height:402px !important;
+    border-radius: 25px;
+}
+@media screen and (min-width:1px) and (max-width:940px) { 
+    .AbuutBaqirShkBaqer{
+        width:200px !important;
+        height:220px !important;
+        border-radius: 25px;
+    }
+    .AboutBaqirMainDiv  span {
+        font-size: 18px;
+    }
+    .AboutBaqirMainDiv  h4 {
+        font-size: 18px;
+    }
+    .AbuutBaqirShkBaqerCol {
+        align-self: flex-start;
+    }
+
+
+
+}
+@media screen and (min-width:1px) and (max-width:510px) {
+    .AboutBaqirMainDiv  span {
+        font-size: 10px;
+    }
+    .AboutBaqirMainDiv  h4 {
+        font-size: 10px;
+    }
+    .AbuutBaqirShkBaqer{
+        width:123px !important;
+        height:126px !important;
+        border-radius: 25px;
+    }
+}
+/* End of About Baqir Page */
