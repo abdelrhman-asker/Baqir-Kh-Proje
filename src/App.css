@@ -627,6 +627,11 @@ body {
 /* End of Main Home Expand Style */
 
 /* Start of About Baqir Page */
+.AboutBaqirMainDiv{
+    background-image: url(./photos/Rotatedpic.png), url(./photos/Rotatedpic.png);
+    background-position: -25% 80% , 100% 65%;
+    background-repeat: no-repeat;
+}
 .AboutBaqirTextAImg {
     width: 100vw;
     overflow-x: hidden;
@@ -697,3 +702,47 @@ body {
     }
 }
 /* End of About Baqir Page */
+
+/* Start Req Steps Main Div */
+.ReqStepsMainDiv {
+    background-image: url(./photos/Rotatedpic.png), url(./photos/Rotatedpic.png);
+    background-position: -25% 80% , 100% 65%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.ReqStepsMainCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-bottom: 150px;
+    width: 100% !important;
+    
+}
+.ReqStepsRowsMain {
+    position: relative;
+    background-color: #BCD6C7;
+    border-radius: 15px;
+    direction: rtl;
+    padding: 25px;
+    text-align: center;
+    width: 100%;
+}
+.ReqStepsRowsMain h3 {
+    font-size: 20px;
+    color: #707070;
+
+}
+.ReqStepsSpanMain {
+    padding: 1% 2%;
+    background-color: #707070;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: -35px;
+    left: 46%;
+    border-radius: 50%;
+}
+/* End Req Steps Main Div */

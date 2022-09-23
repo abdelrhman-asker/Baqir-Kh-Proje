@@ -10,7 +10,7 @@ const MainHome = () => {
         <MainNav />
 
           <Container className='MainHomeRowFContExpand'>
-          <Col xs='11'  md="12" className='MainHomeRow' col={6}>
+          <Col xs='12'  md="12" className='MainHomeRow' col={6}>
             <div  className='MainHomeRowFDivExpand'>
               <h3>  التعريف بالجائزه</h3>
                 <span>
@@ -19,10 +19,9 @@ const MainHome = () => {
               </div>
               </Col>
 
-            <Col xs='11' md="6" className='MainHomeRowSDivExpand'>
+            <Col xs='12' md="6" className='MainHomeRowSDivExpand'>
               <div className='MainHomeexpandDiv'> 
-                <h4 >
-                ي جائزة تعنى بالشؤون الأدبية والعلمية، ودعم وتشجيع الإبداع المعرفي، تمنح بشكل دوري. أسست الجائزة للمساهمة في تطوير وإثراء المجتمع في مجالات الشعر والادب والعلوم الإنسانية والبحث العلمي والإنجازات العلمية
+                <h4 >هي جائزة تعنى بالشؤون الأدبية والعلمية، ودعم وتشجيع الإبداع المعرفي، تمنح بشكل دوري. أسست الجائزة للمساهمة في تطوير وإثراء المجتمع في مجالات الشعر والادب والعلوم الإنسانية والبحث العلمي والإنجازات العلمية
                 </h4>
                 
                   <span>مسمي الجائزة:</span>
