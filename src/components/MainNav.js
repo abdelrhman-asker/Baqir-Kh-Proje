@@ -147,7 +147,7 @@ const MainNav = () => {
                 <Link to="/َPrizeNeeds">    متطلبات عامه </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item>  
-                <Link to="/َPrizeSign">     خطوات التقديم علي الجائزه </Link>
+                <Link to="/ReqSteps">     خطوات التقديم علي الجائزه </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item>  
                 <Link to="/َPrizeArbit">   شئون التحكيم   </Link>
