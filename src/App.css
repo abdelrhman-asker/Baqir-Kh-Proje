@@ -598,6 +598,7 @@ body {
     align-items: center;
     gap: 10px;
     font-size: 30px;
+    direction: ltr;
 }
 .MainHomeRowFDivExpand h3 {
     margin-bottom: 0;
