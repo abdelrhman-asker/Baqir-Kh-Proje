@@ -169,10 +169,10 @@ const MainNav = () => {
         <Col className='LastNavMaqirCol'>
         <img xs={4}   src={Maqir} />
         </Col>
-        <Col xs={5} className='LastNavParaCol'>
+        <Col xs={4} className='LastNavParaCol'>
         <h3 className='LastNavPara'>حمل نموذج التقديم للمنافسه علي الجائزه </h3>
         </Col>
-        <Col xs={3} >
+        <Col xs={4} >
         <Link to="/">
         <img  src={Logo} /></Link>
         </Col>
