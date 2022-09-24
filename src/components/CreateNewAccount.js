@@ -80,25 +80,7 @@ const SignIn = () => {
         <input  className="submitButStyle SignInButn " type="submit" formAction='/ProfileInfo' value="دخول"/>
         </div>
               </Col>
-              <Col xs='12'  md="12" className='MainHomeRow' col={6}>
-            <div  className='MainHomeRowFDivExpand SignInForgDiv'>
-              <h3>  
-                  هل نسيت كلمه المرور؟
-                  <span>
-                    <Link to="/ResetPassword">نسيت كلمه المرور...</Link>
-                  </span>
-                    </h3>
-                
-              </div>
-              </Col>
-              <Col xs='12'  md="12" className='MainHomeRow' col={6}>
-            <div  className='MainHomeRowFDivExpand SignInNewDiv'>
-              <Link to="/CreateNewAccount">   تسجيل حساب جديد    </Link>
-                
-              </div>
-
-              </Col>
-
+            
         </form>
         </Col>
         

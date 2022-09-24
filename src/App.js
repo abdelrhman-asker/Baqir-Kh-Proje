@@ -12,8 +12,9 @@ import Partners from './components/Partners';
 import CreateNewAccount from './components/CreateNewAccount';
 import Models from './components/Models';
 import ChangePass from './components/ChangePass';
-import 'bootstrap/dist/css/bootstrap.css';
 import Contact from "./components/Contact"
+
+import 'bootstrap/dist/css/bootstrap.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<MainHome />} />
+          <Route path='/MainHome' element={<MainHome />} />
           <Route path='/Contact' element={<Contact />} />
           <Route path='/MainHomeExpand' element={<MainHomeExpand />} />
           <Route path='/AboutBaqir' element={<AboutBaqir />} />
@@ -35,6 +37,7 @@ const App = () => {
           <Route path='/CreateNewAccount' element={<CreateNewAccount />} />
           <Route path='/Models' element={<Models />} />
           <Route path='/ChangePass' element={<ChangePass />} />
+          
         </Routes>
       </BrowserRouter>
     </div>

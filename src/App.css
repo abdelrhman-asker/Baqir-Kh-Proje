@@ -801,6 +801,12 @@ color: #707070;
     overflow-x: hidden;
     
 }
+.ContactMainDiv p {
+    color: #D97417;
+    font-size: 16px;
+    text-shadow: 0.5px 0.5px 10px;
+    font-weight: bold;
+}
 .PsuedoEleRed::after {
     content: "";
     position: absolute;
