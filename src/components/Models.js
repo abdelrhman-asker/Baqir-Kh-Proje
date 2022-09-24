@@ -30,7 +30,7 @@ const Profileinfo = () => {
                 
               </div>
               </Col>
-        <Col xs='12'  md="12" className='ProfAboRow' col={6}>
+        <Col xs='12'  md="12" className='ProfAboRow' >
             <div  className='MainHomeRowFDivExpand'>
               <h3>  مرحبًا،مراد  </h3>
                 
@@ -38,7 +38,7 @@ const Profileinfo = () => {
               </Col>
 
               
-        <Col xs='10'  md="12" className='MainHomeRow' col={6}>
+        <Col xs='12'  md="12" className='MainHomeRow MainHomeRowModels' >
             
                 <Table striped  className='ModelsTableTextTable '>
                    <tr className='ModelsTableTextRow '>

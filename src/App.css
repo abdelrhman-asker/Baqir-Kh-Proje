@@ -1065,6 +1065,13 @@ color: #707070;
     font-size: 22px;
     color: #707070;
 }
+@media screen and (min-width:1px) and  (max-width:771px) {
+    .ReqSpanTopDiv .ReqSpanTop  {
+        font-size: 12px;
+        
+    
+    }
+}
 /* End of register span */
 
 /* start of Models section */
@@ -1104,6 +1111,7 @@ color: #707070;
 .TableDDate {
     color: #D97417;
 }
+
 @media screen and (min-width:1px) and  (max-width:771px) {
     .ModelsTableTextRow td {
         padding: 30px;
@@ -1116,5 +1124,11 @@ color: #707070;
 /* Start of Change Pass Section */
 .ChangePassFormEdit {
     margin-top: 20px !important;
+}
+@media screen and (min-width:1px) and  (max-width:771px) {
+    .ChangePassFormEdit input::placeholder{
+        font-size: 10px;
+    
+    }
 }
 /* End of Change Pass Section */
