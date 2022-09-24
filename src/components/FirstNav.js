@@ -10,10 +10,11 @@ import { RiSnapchatLine } from 'react-icons/ri';
 import { AiOutlineWhatsApp } from 'react-icons/ai';
 import { AiOutlineInstagram } from 'react-icons/ai';
 import { FiTwitter } from 'react-icons/fi';
+import { MdOutlineAccountCircle } from 'react-icons/md';
 import { Link } from "react-router-dom";
 import Maqir from "../photos/Group 39.png"
 import Logo from "../photos/اللوجو.png"
-import Canvas from "./Canvas"
+import FIrstCanvas from "./FIrstCanvas"
 
 const MainNav = () => {
 
@@ -44,26 +45,21 @@ const MainNav = () => {
                   </div>
           </Col>
         </Navbar.Brand>
-        <Canvas  />
+        <FIrstCanvas  />
 
         <div    className='DropDownFixedStyling'>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto ToMakeHundHei">
-          <NavDropdown className='NavDropDownStyle' title="حسابي" style={{direction:'rtl'}} id="dropdown-autoclose-inside" >
-              <NavDropdown.Item className='NavDropDownItem' >
-                <Link className='NavDropDownLinks' to='/ProfileInfo'>المعلومات الشخصيه</Link>
-              </NavDropdown.Item>
-              <NavDropdown.Item className='NavDropDownItem' >
-              <Link className='NavDropDownLinks' to='/models'>النماذج المسلمة</Link>
-              </NavDropdown.Item>
-              <NavDropdown.Item className='NavDropDownItem' >
-              <Link className='NavDropDownLinks' to='/ChangePass'>تغيير كلمه المرور</Link>
-              </NavDropdown.Item>
-              <NavDropdown.Item className='NavDropDownItem' >
-              <Link className='NavDropDownLinks' to='/SignIn'>تسجيل الدخول</Link>
-              </NavDropdown.Item>
+          <Nav.Link className='NavDropDownStyle'  style={{direction:'rtl'}} id="dropdown-autoclose-inside" >
+          <Link  to="/SignIn"> 
+          حسابي
+          <MdOutlineAccountCircle size={20} />
+
+ </Link>
+
+
              
-            </NavDropdown>
+            </Nav.Link>
 
             <Nav.Link className='NavDropDownStyle' >
               <Link  to="/Contact"> التواصل وادعم </Link>

@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import {CgFormatJustify} from "react-icons/cg"
+import { MdOutlineAccountCircle } from 'react-icons/md';
 
 const Canvas = () => {
     const [show, setShow] = useState(false);
@@ -22,21 +23,16 @@ const Canvas = () => {
         </Offcanvas.Header>
         <Offcanvas.Body>
         <Nav className="ms-auto ToMakeHundHei">
-          <NavDropdown className='NavDropDownStyle' title="حسابي" style={{direction:'rtl'}} id="collasible-nav-dropdown">
-              <NavDropdown.Item className='NavDropDownItem' >
-                <Link className='NavDropDownLinks' to='/ProfileInfo'>المعلومات الشخصيه</Link>
-              </NavDropdown.Item>
-              <NavDropdown.Item className='NavDropDownItem' >
-              <Link className='NavDropDownLinks' to='/models'>النماذج المسلمة</Link>
-              </NavDropdown.Item>
-              <NavDropdown.Item className='NavDropDownItem' >
-              <Link className='NavDropDownLinks' to='/ChangePass'>تغيير كلمه المرور</Link>
-              </NavDropdown.Item>
-              <NavDropdown.Item className='NavDropDownItem' >
-              <Link className='NavDropDownLinks' to='/SignIn'>تسجيل الدخول</Link>
-              </NavDropdown.Item>
+        <Nav.Link className='NavDropDownStyle'  style={{direction:'rtl'}} id="dropdown-autoclose-inside" >
+          <Link  to="/SignIn"> 
+          حسابي
+          <MdOutlineAccountCircle size={20} />
+
+ </Link>
+
+
              
-            </NavDropdown>
+            </Nav.Link>
 
             <Nav.Link className='NavDropDownStyle' href="#features">
               <Link  to="/Contact"> التواصل وادعم </Link>

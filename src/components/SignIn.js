@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import MainFooter from './MainFooter'
-import MainNav from './MainNav'
+import FirstNav from './FirstNav'
 import { Container , Col } from 'reactstrap'
 import CircStyl from "../photos/Rectangle 16.png"
 import { Link } from "react-router-dom";
@@ -17,7 +17,7 @@ const SignIn = () => {
 
   return (
     <div className='ContactMainDiv '>
-        <MainNav />
+        <FirstNav />
         <Container className='ContactMainCont SignInMainCont'>
         <Col xs='12'  md="12" className='MainHomeRow' col={6}>
             <div  className='MainHomeRowFDivExpand'>
