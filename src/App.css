@@ -609,6 +609,8 @@ body {
     background-image: url(./photos/Rotatedpic.png), url(./photos/Rotatedpic.png);
     background-position: -25% 80% , 100% 65%;
     background-repeat: no-repeat;
+    width: 100vw;
+    overflow-y: hidden;
 }
 .MainHomeRowFContExpand{
     display: flex;
