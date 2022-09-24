@@ -1,7 +1,7 @@
 import React from 'react'
 import MainFooter from './MainFooter'
 import MainNav from './MainNav'
-import { Container, Row , Col } from 'reactstrap'
+import { Container , Col } from 'reactstrap'
 import CircStyl from "../photos/Rectangle 16.png"
 import Form from 'react-bootstrap/Form';
 

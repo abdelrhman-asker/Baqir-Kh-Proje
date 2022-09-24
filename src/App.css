@@ -231,7 +231,7 @@ body {
 .LastNavRow {
     justify-content: space-between !important;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap !important;
 
 }
 .LastNavRow .col {
@@ -246,6 +246,7 @@ body {
     text-align: center;
     margin: 0% !important;
     font-size: 25px;
+    font-family: Almarai;
 }
 .LastNavMaqirCol {
     align-self: flex-end;
@@ -816,10 +817,14 @@ color: #707070;
     gap: 30px;
     margin-top: 100px;
 }
+.ContactMainForm h4 {
+    color: #707070;
+}
 .ContactMainForm input {
     height: 55px;
     border-radius: 15px;
     border: solid 1px gray;
+    padding-right: 10px ;
 }
 :placeholder-shown {
     display: flex;
@@ -913,3 +918,75 @@ color: #707070;
     gap: 10px;
 }
 /* End of PrizeCo Section */
+
+/* start of sign In Section */
+.SignInMainCont {
+    margin-bottom: 100px;
+}
+
+.SignInMainData  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.CheckboxDiv {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    margin: -30px 0 0;
+}
+.CheckboxDiv input {
+    cursor: pointer;
+}
+.SignInMainData {
+    width: 100%;
+}
+.SignInMainForm {
+    align-items: flex-start !important;
+    gap: 30px;
+}
+.StyleinputwidthSign {
+    width: 50vw !important;
+}
+.SignInButnDiv{
+    margin-bottom: 10px !important;
+}
+.SignInButn {
+    border-radius: 15px;
+    height: 50px;
+    border: none;
+}
+.SignInMainCont h4 {
+    font-size: 18px;
+    font-family: Almarai;
+}
+.SignInForgDiv h3 span {
+    margin-right: 5px;
+    
+}
+.SignInForgDiv h3{
+    font-size: 12px;
+    color: #707070;
+    direction: rtl;
+}
+.SignInForgDiv h3 span a{
+    color: #D97417 !important;
+    text-decoration: underline;
+    font-size: 10px;
+}
+.SignInNewDiv {
+    margin-top: -30px;
+}
+.SignInNewDiv a {
+    text-decoration: underline;
+    color: #707070 !important;
+    font-size: 12px;
+}
+@media screen and (min-width:1px) and (max-width:512px) {
+    .SignInMainCont input::placeholder {
+        font-size: smaller;
+    }
+}
+/* End of sign In Section */
