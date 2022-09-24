@@ -9,6 +9,9 @@ import PrizeCo from './components/PrizeCo';
 import SignIn from './components/SignIn';
 import ProfileInfo from './components/ProfileInfo';
 import Partners from './components/Partners';
+import CreateNewAccount from './components/CreateNewAccount';
+import Models from './components/Models';
+import ChangePass from './components/ChangePass';
 import 'bootstrap/dist/css/bootstrap.css';
 import Contact from "./components/Contact"
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
@@ -29,6 +32,9 @@ const App = () => {
           <Route path='/SignIn' element={<SignIn />} />
           <Route path='/ProfileInfo' element={<ProfileInfo />} />
           <Route path='/Partners' element={<Partners />} />
+          <Route path='/CreateNewAccount' element={<CreateNewAccount />} />
+          <Route path='/Models' element={<Models />} />
+          <Route path='/ChangePass' element={<ChangePass />} />
         </Routes>
       </BrowserRouter>
     </div>

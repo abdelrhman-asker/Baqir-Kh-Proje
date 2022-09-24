@@ -85,7 +85,7 @@ const Canvas = () => {
               title="سجل الشرف"
               menuVariant="dark">
               <NavDropdown.Item className='NavDropDownItem'>  
-                <Link to="/Discretion">  القديريه </Link>
+                <Link to="/Discretion">  التقديريه </Link>
                 </NavDropdown.Item >
               <NavDropdown.Item className='NavDropDownItem'>  
                 <Link to="/َQuotes">  مجال الشعر </Link>

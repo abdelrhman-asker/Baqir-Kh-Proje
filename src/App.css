@@ -1020,6 +1020,7 @@ color: #707070;
     right: 15%;
     top: 85%;
     z-index: 2;
+    cursor: pointer;
 }
 .ProfAboutTableText table {
     background-color:#bcd6c747;
@@ -1053,3 +1054,67 @@ color: #707070;
     
 }
 /* End of Profile Info Section */
+
+/* start of register span */
+.ReqSpanTopDiv  {
+    margin-top: 20px;
+}
+.ReqSpanTopDiv  .ReqSpanTop {
+    text-align: center;
+    display: flex;
+    font-size: 22px;
+    color: #707070;
+}
+/* End of register span */
+
+/* start of Models section */
+.ModelsTableTextTable {
+    /* border: 2px solid black !important; 
+    border-radius: 20px   !important; */
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+    border: solid #ccc 2px !important;
+    -moz-border-radius: 6px !important;
+    -webkit-border-radius: 6px !important;
+    border-radius: 20px !important;
+    -webkit-box-shadow: 0 1px 1px #ccc !important;
+    -moz-box-shadow: 0 1px 1px #ccc !important;
+    box-shadow: 0 1px 1px #ccc !important;
+    overflow: hidden !important;
+}
+.ModelsTableTextRow td {
+    padding: 30px;
+    font-size: 22px;
+    text-align: center;
+
+}
+.ModelsTableTextRow td:first-child {
+    border-left: 2px solid #ccc !important;
+
+}
+.ModelsTableTextRow td:nth-child(2){
+    border-left: 2px solid #ccc !important;
+
+}
+.ModelsTableTextRow:first-child{
+    outline: 2px solid #ccc !important;
+
+}
+
+.TableDDate {
+    color: #D97417;
+}
+@media screen and (min-width:1px) and  (max-width:771px) {
+    .ModelsTableTextRow td {
+        padding: 30px;
+        font-size: 12px;
+        text-align: center;
+    
+    }
+}
+/* End of Models section */
+/* Start of Change Pass Section */
+.ChangePassFormEdit {
+    margin-top: 20px !important;
+}
+/* End of Change Pass Section */

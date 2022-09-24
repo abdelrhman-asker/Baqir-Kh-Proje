@@ -104,7 +104,7 @@ const MainNav = () => {
               title="سجل الشرف"
               menuVariant="dark">
               <NavDropdown.Item>  
-                <Link to="/Discretion">  القديريه </Link>
+                <Link to="/Discretion">  التقديريه </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item>  
                 <Link to="/َQuotes">  مجال الشعر </Link>
