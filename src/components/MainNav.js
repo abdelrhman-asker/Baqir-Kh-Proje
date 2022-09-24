@@ -166,14 +166,14 @@ const MainNav = () => {
 
     <Container className='LastNavCont'>
       <Row className='LastNavRow'>
-        <Col className='LastNavMaqirCol'>
-        <img xs={4}   src={Maqir} />
+        <Col xs={4} className='LastNavMaqirCol'>
+        <img    src={Maqir} />
         </Col>
         <Col xs={4} className='LastNavParaCol'>
         <h3 className='LastNavPara'>حمل نموذج التقديم للمنافسه علي الجائزه </h3>
         </Col>
-        <Col xs={3} >
-        <Link to="/">
+        <Col  >
+        <Link xs={4} to="/">
         <img  src={Logo} /></Link>
         </Col>
       </Row>
