@@ -60,7 +60,7 @@ const MainNav = () => {
               <Link className='NavDropDownLinks' to='/ChangePass'>تغيير كلمه المرور</Link>
               </NavDropdown.Item>
               <NavDropdown.Item className='NavDropDownItem' >
-              <Link className='NavDropDownLinks' to='/LogOut'>تسجيل الخروج</Link>
+              <Link className='NavDropDownLinks' to='/SignIn'>تسجيل الدخول</Link>
               </NavDropdown.Item>
              
             </NavDropdown>
@@ -92,7 +92,7 @@ const MainNav = () => {
               title="المركز الاعلامي"
               menuVariant="dark">
               <NavDropdown.Item  >  
-                <Link to="/"> 2023 حفل عام</Link>
+                <Link to="/celebration2023"> 2023 حفل عام</Link>
                 </NavDropdown.Item>
             </NavDropdown>
             </Col>

@@ -672,8 +672,8 @@ color: #707070;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap !important;
-    padding-top: 100px;
+    flex-wrap: wrap !important;
+    padding-top: 50px;
     margin: auto;
 }
 .AboutBaqirMainDiv  span {
@@ -693,7 +693,7 @@ color: #707070;
 .AboutBaqirDiv {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 50px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -703,6 +703,12 @@ color: #707070;
 .AbuutBaqirShkBaqer{
     height:402px !important;
     border-radius: 25px;
+}
+.BelowBqirPic {
+    margin-top: 50px !important;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 @media screen and (min-width:1px) and (max-width:940px) { 
     .AbuutBaqirShkBaqer{
