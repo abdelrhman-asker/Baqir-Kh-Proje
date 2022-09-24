@@ -624,7 +624,7 @@ body {
 .MainHomeRowFDivExpand {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     gap: 10px;
     font-size: 30px;
     direction: ltr;
@@ -990,3 +990,64 @@ color: #707070;
     }
 }
 /* End of sign In Section */
+/* Start of Profile Info Section */
+.ProfileInfoMainCont  {
+    padding: 0 !important;
+    width: 100vw;
+    overflow-x: hidden ;
+}
+.ProfileInfoMainCont .ProfAboRow h3 {
+    color: #D97417;
+}
+.ProfileInfoMainCont .ProfAboRow img {
+    border-radius: 50%;
+    width: 190px;
+    height: 190px;
+}
+.ProfileInfoProfIco {
+    position: relative;
+    margin-bottom: 30px;
+}
+.ProfileInfoEditico {
+    border-radius: 50%;
+    width: 30px;
+    font-size: 18px;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    right: 15%;
+    top: 85%;
+    z-index: 2;
+}
+.ProfAboutTableText table {
+    background-color:#bcd6c747;
+    border-radius: 20px;
+}
+.ProfAboutTableText th {
+    padding-right: 40px;
+    font-size: 28px;
+    font-family: Almarai;
+    color: #707070;
+}
+.ProfAboutTableText td {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    direction: rtl;
+    text-align: center;
+    padding: 40px;
+    font-size: 22px;
+    font-family: Noor;
+    color: #707070;
+    opacity: 0.8;
+}
+@media screen and (min-width:1px) and (max-width:610px) {
+    .ProfAboutTableText th {
+        font-size: 10px;
+    }
+    .ProfAboutTableText td {
+        font-size: 10px;
+    }
+    
+}
+/* End of Profile Info Section */

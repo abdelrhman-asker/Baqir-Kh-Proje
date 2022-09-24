@@ -51,7 +51,7 @@ const MainNav = () => {
           <Nav className="ms-auto ToMakeHundHei">
           <NavDropdown className='NavDropDownStyle' title="حسابي" style={{direction:'rtl'}} id="dropdown-autoclose-inside" >
               <NavDropdown.Item className='NavDropDownItem' >
-                <Link className='NavDropDownLinks' to='/Profile-Info'>المعلومات الشخصيه</Link>
+                <Link className='NavDropDownLinks' to='/ProfileInfo'>المعلومات الشخصيه</Link>
               </NavDropdown.Item>
               <NavDropdown.Item className='NavDropDownItem' >
               <Link className='NavDropDownLinks' to='/models'>النماذج المسلمة</Link>

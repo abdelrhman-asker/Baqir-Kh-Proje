@@ -7,9 +7,10 @@ import ReqSteps from './components/ReqSteps';
 import AboutUs from './components/AboutUs';
 import PrizeCo from './components/PrizeCo';
 import SignIn from './components/SignIn';
+import ProfileInfo from './components/ProfileInfo';
 import 'bootstrap/dist/css/bootstrap.css';
 import Contact from "./components/Contact"
-import { BrowserRouter, Route, Router, Routes, Link, NavLink } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
           <Route path='/AboutUs' element={<AboutUs />} />
           <Route path='/PrizeCo' element={<PrizeCo />} />
           <Route path='/SignIn' element={<SignIn />} />
+          <Route path='/ProfileInfo' element={<ProfileInfo />} />
         </Routes>
       </BrowserRouter>
     </div>
