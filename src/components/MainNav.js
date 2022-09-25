@@ -141,10 +141,10 @@ const MainNav = () => {
                 <Link to="/MainHomeExpand">  التعريف بها </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item>  
-                <Link to="/َPrizeَِQuest">   الرؤيه والرساله والاهداف </Link>
+                <Link to="/PrizeQuest">   الرؤيه والرساله والاهداف </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item>  
-                <Link to="/َPrizeNeeds">    متطلبات عامه </Link>
+                <Link to="/PrizeNeeds">    متطلبات عامه </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item>  
                 <Link to="/ReqSteps">     خطوات التقديم علي الجائزه </Link>

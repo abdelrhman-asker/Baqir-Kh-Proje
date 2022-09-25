@@ -655,9 +655,17 @@ color: #707070;
 }
 .MainHomeexpandDiv span {
     font-family: Almarai ;
+    font-size: 22px;
+
 }
 @media screen and (min-width:1px) and (max-width:510px) {
     .MainHomeRowFDivExpand {
+        font-size: 10px;
+    }
+    .MainHomeexpandDiv h4 {
+        font-size: 10px;
+    }
+    .MainHomeexpandDiv span {
         font-size: 10px;
     }
 }
@@ -1131,6 +1139,12 @@ color: #707070;
 .ChangePassFormEdit {
     margin-top: 20px !important;
 }
+.ChangePassFormEdit p {
+    color: #D97417;
+    font-size: 16px;
+    text-shadow: 0.5px 0.5px 10px;
+    font-weight: bold;
+}
 @media screen and (min-width:1px) and  (max-width:771px) {
     .ChangePassFormEdit input::placeholder{
         font-size: 10px;
@@ -1138,3 +1152,21 @@ color: #707070;
     }
 }
 /* End of Change Pass Section */
+/* start of prize need  section */
+.MainHomeexpandDiv a{
+    text-decoration:underline;
+    color: #D97417;
+    font-size: 22px;
+    font-family: Almarai;
+    margin-right: 30px;
+}
+.MainHomeexpandDiv a{
+    color: #D97417 !important;
+}
+@media screen and (min-width:1px) and (max-width:510px) {
+   
+    .MainHomeexpandDiv a {
+        font-size: 10px;
+    }
+}
+/* end of prize need  section */

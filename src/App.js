@@ -13,6 +13,9 @@ import CreateNewAccount from './components/CreateNewAccount';
 import Models from './components/Models';
 import ChangePass from './components/ChangePass';
 import Contact from "./components/Contact"
+import PrizeQuest from "./components/PrizeQuest"
+import PrizeNeeds from "./components/PrizeNeeds"
+
 
 import 'bootstrap/dist/css/bootstrap.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
@@ -37,6 +40,8 @@ const App = () => {
           <Route path='/CreateNewAccount' element={<CreateNewAccount />} />
           <Route path='/Models' element={<Models />} />
           <Route path='/ChangePass' element={<ChangePass />} />
+          <Route path='/PrizeQuest' element={<PrizeQuest />} />
+          <Route path='/PrizeNeeds' element={<PrizeNeeds />} />
           
         </Routes>
       </BrowserRouter>

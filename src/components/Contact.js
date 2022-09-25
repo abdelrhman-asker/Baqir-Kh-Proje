@@ -32,11 +32,11 @@ const Contact = () => {
         <div>
             <h4 className='PsuedoEleRed' href="Name"> مجال الاستفسار</h4>
             <Form.Select className='FormSelStyle Styleformwidth' required aria-label="Default select example">
-                <option value="" disabled selected hidden >   اختر من القائمة</option>
+                <option value="" disabled select hidden >   اختر من القائمة</option>
                 <option size="lg" className='OptSelStyle ' value="1">
-                    <h5>
+                    
                     المنافسه علي الجائزه
-                    </h5>
+                    
                     </option>
                 <option className='OptSelStyle ' value="2">رعاية فرع من الفروع</option>
                 <option style={{Color:"white"}} className='OptSelStyle ' value="3">المشاركه في إحدي لجان التنظيم</option>

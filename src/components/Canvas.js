@@ -62,7 +62,7 @@ const Canvas = () => {
                 <Link to="/MainHomeExpand">  التعريف بها </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item  className='NavDropDownItem'>  
-                <Link to="/َPrizeَِQuest">   الرؤيه والرساله والاهداف </Link>
+                <Link to="/PrizeQuest">   الرؤيه والرساله والاهداف </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item  className='NavDropDownItem'>  
                 <Link to="/َPrizeNeeds">    متطلبات عامه </Link>
