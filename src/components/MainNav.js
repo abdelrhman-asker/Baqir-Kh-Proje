@@ -28,12 +28,11 @@ const MainNav = () => {
         <Col col={4} className="SearchLinksRight" >
        
             <div className='MainNavlinks'>
-                    <a href='https://wa.me/966552580070' target="_blank"><AiOutlineWhatsApp /></a>
-                    <a href='https://twitter.com/ramelag2' target="_blank"><FiTwitter /></a>
-                    <a href='https://www.instagram.com/ramel_ag/' target="_blank"><AiOutlineInstagram /></a>
-                    <a href='https://www.snapchat.com/add/ag_ramel'target="_blank"><RiSnapchatLine /></a>
-                    <a href='https://www.tiktok.com/@ramel_ag?_t=8VNkBgXR6oQ&_r=1' target="_blank"><FaTiktok /></a>
-            </div>
+                    <a href='https://api.whatsapp.com/send/?phone=966538998008&text&type=phone_number&app_absent=0' target="_blank"><AiOutlineWhatsApp /></a>
+                    <a href='https://twitter.com/baqeraward?s=21&t=oHXMIvQ1PEGYTp4fcNNBJA' target="_blank"><FiTwitter /></a>
+                    <a href='https://instagram.com/baqeraward?igshid=NTlmMWMyMzg=' target="_blank"><AiOutlineInstagram /></a>
+                 
+                  </div>
             <div className="wrapper" >
                   <div className="search-input">
                 <Input id="myInput" type="text" placeholder=" ...بحث "/>

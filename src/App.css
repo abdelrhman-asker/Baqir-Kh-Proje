@@ -1217,3 +1217,19 @@ color: #707070;
     border-left: 2px solid rgba(0, 0, 0, 0.081);
 }
 /* End of Discretion Section */
+
+/* start of Reset Password section */
+.ResetPassButn {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+@media screen and (min-width:1px) and  (max-width:771px) {
+    .ResetPassMainForm input::placeholder{
+        font-size: 10px;
+    
+    }
+}
+/* End of Reset Password section */

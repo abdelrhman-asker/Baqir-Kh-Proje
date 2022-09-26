@@ -12,6 +12,7 @@ import Partners from './components/Partners';
 import CreateNewAccount from './components/CreateNewAccount';
 import Models from './components/Models';
 import ChangePass from './components/ChangePass';
+import ResetPassword from "./components/ResetPassword"
 import Contact from "./components/Contact"
 import PrizeQuest from "./components/PrizeQuest"
 import PrizeNeeds from "./components/PrizeNeeds"
@@ -48,6 +49,7 @@ const App = () => {
           <Route path='/PrizeArbit' element={<PrizeArbit />} />
           <Route path='/Discretion' element={<Discretion />} />
           <Route path='/Quotes' element={<Quotes />} />
+          <Route path='/ResetPassword' element={<ResetPassword />} />
           
         </Routes>
       </BrowserRouter>
