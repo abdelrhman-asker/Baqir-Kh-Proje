@@ -20,6 +20,11 @@ import PrizeNeeds from "./components/PrizeNeeds"
 import PrizeArbit from "./components/PrizeArbit"
 import Discretion from "./components/Discretion"
 import Quotes from "./components/Quotes"
+import HumanSc from "./components/HumanSc"
+import MedicalSc from "./components/MedicalSc"
+import AgrSc from "./components/AgrSc"
+import EngSc from "./components/EngSc"
+import AppForms from "./components/AppForms"
 
 
 import 'bootstrap/dist/css/bootstrap.css';
@@ -51,6 +56,11 @@ const App = () => {
           <Route path='/Discretion' element={<Discretion />} />
           <Route path='/Quotes' element={<Quotes />} />
           <Route path='/ResetPassword' element={<ResetPassword />} />
+          <Route path='/HumanSc' element={<HumanSc />} />
+          <Route path='/MedicalSc' element={<MedicalSc />} />
+          <Route path='/AgrSc' element={<AgrSc />} />
+          <Route path='/EngSc' element={<EngSc />} />
+          <Route path='/AppForms' element={<AppForms />} />
           
         </Routes>
       </BrowserRouter>

@@ -9,7 +9,7 @@ const Quotes = () => {
   return (
     <div  className='MainHomeExMainDiv'>
         <MainNav />
-        <Container className='MainHomeRowFContExpand ProfileInfoMainCont'>
+        <Container className='MainHomeRowFContExpand ProfileInfoMainCont DiscTableMainCont'>
         <Col xs='12'  md="12" className='MainHomeRow' col={6}>
             <div  className='MainHomeRowFDivExpand'>
               <h3> 
@@ -21,24 +21,7 @@ const Quotes = () => {
                 </span>
               </div>
               </Col>
-        <Col xs='12'  md="12" className='ProfAboRow' col={6}>
-            <div  className='MainHomeRowFDivExpand'>
-            <span className='ProfileInfoProfIco'>
-                  <img src={UserImage} />
-                  <span className='ProfileInfoEditico'>
-                  <VscEdit />
-                  </span>
-                </span>
-                
-              </div>
-              </Col>
-        <Col xs='12'  md="12" className='ProfAboRow' col={6}>
-            <div  className='MainHomeRowFDivExpand'>
-              <h3>  مرحبًا،مراد  </h3>
-                
-              </div>
-              </Col>
-
+      
               
         <Col xs='10'  md="12" className='MainHomeRow' col={6}>
             <div  className=' DiscTableText'>

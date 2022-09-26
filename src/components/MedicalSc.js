@@ -5,22 +5,22 @@ import { Container, Row , Col, Table } from 'reactstrap'
 import UserImage from "../photos/MoradUser.png"
 import { VscEdit } from 'react-icons/vsc';
 import CircStyl from "../photos/Rectangle 16.png"
-
-
-const Discretion = () => {
+const MedicalSc = () => {
   return (
     <div  className='MainHomeExMainDiv'>
         <MainNav />
         <Container className='MainHomeRowFContExpand ProfileInfoMainCont DiscTableMainCont'>
         <Col xs='12'  md="12" className='MainHomeRow' col={6}>
             <div  className='MainHomeRowFDivExpand'>
-              <h3>  التقديرية </h3>
+              <h3> 
+              مجال العلوم الطبية 
+                            </h3>
                 <span>
                   <img src={CircStyl} />
                 </span>
               </div>
               </Col>
-      
+       
 
               
         <Col xs='10'  md="12" className='MainHomeRow' col={6}>
@@ -63,4 +63,4 @@ const Discretion = () => {
   )
 }
 
-export default Discretion
+export default MedicalSc

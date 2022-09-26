@@ -1177,6 +1177,9 @@ color: #707070;
 /* End of prizearbit section */
 
 /* Start of Discretion Section */
+.DiscTableMainCont {
+    margin-top: 100px;
+}
 .DiscTableTextTTwo {
     border-collapse: separate !important;
     border-spacing: 0 !important;
@@ -1198,7 +1201,8 @@ color: #707070;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 300px;
+    padding-bottom: 400px;
+    padding-top: 30px;
 }
 .DiscTableText td {
     text-align: justify;
