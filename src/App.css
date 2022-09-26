@@ -1170,3 +1170,50 @@ color: #707070;
     }
 }
 /* end of prize need  section */
+/* start of prizearbit section */
+.PrizeArbitDiv {
+    gap: 5px ;
+}
+/* End of prizearbit section */
+
+/* Start of Discretion Section */
+.DiscTableTextTTwo {
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+    -moz-border-radius: 6px !important;
+    -webkit-border-radius: 6px !important;
+    border-radius: 20px !important;
+    -webkit-box-shadow: 0 1px 1px #ccc !important;
+    -moz-box-shadow: 0 1px 1px #ccc !important;
+    box-shadow: 0 1px 1px #ccc !important;
+    overflow: hidden !important;
+    background-color: #E6E6E6;
+}
+.DiscTableTextTsec {
+    background-color: #F2F2F2;
+
+}
+.DiscTableText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 300px;
+}
+.DiscTableText td {
+    text-align: justify;
+    direction: rtl;
+    text-align: center;
+    padding: 30px;
+    font-size: 22px;
+    font-family: Noor;
+    color: #707070;
+    opacity: 0.8;
+    width: fit-content;
+}
+.DiscTableTextTTwo td {
+    width: 200px;
+    text-align: center;
+    border-left: 2px solid rgba(0, 0, 0, 0.081);
+}
+/* End of Discretion Section */

@@ -38,7 +38,7 @@ const AboutBaqir = () => {
             <Col className='AbuutBaqirShkBaqerCol' xs={5} md={5} >
                     <img className='AbuutBaqirShkBaqer' src={ShkBaqer} />
                 </Col>
-                <Col xs={5}  md={5}  className='AboutBaqirTextAImgLeft' >
+                <Col xs={6}  md={6}  className='AboutBaqirTextAImgLeft' >
                   <span>نشاطه الأدبي والعلمي:</span>
                 
                 <h4>
@@ -47,7 +47,7 @@ const AboutBaqir = () => {
                 </h4>
                
                 </Col>
-                <Col xs={5}  md={5} className='BelowBqirPic'>
+                <Col xs={12}  md={11} className='BelowBqirPic'>
                     <span>توليه منصب القضاء:</span>
 
                 <h4>

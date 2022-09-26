@@ -51,7 +51,7 @@ const Canvas = () => {
             </Nav.Link>
 
             <Nav.Link className='NavDropDownStyle HidAndBlock' href="#pricing">
-            <Link to="/AboutBaqir">  مجالات الجائزه </Link>
+            <Link to="/AboutBaqir">  عن الشيخ بقير </Link>
             </Nav.Link>
 
             <NavDropdown className='NavDropDownStyle HidAndBlock' style={{direction:'rtl'}}
@@ -71,7 +71,7 @@ const Canvas = () => {
                 <Link to="/َPrizeSign">     خطوات التقديم علي الجائزه </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item  className='NavDropDownItem'>  
-                <Link to="/َPrizeArbit">   شئون التحكيم   </Link>
+                <Link to="/PrizeArbit">   شئون التحكيم   </Link>
                 </NavDropdown.Item>
             </NavDropdown>
             
@@ -88,7 +88,7 @@ const Canvas = () => {
                 <Link to="/Discretion">  التقديريه </Link>
                 </NavDropdown.Item >
               <NavDropdown.Item className='NavDropDownItem'>  
-                <Link to="/َQuotes">  مجال الشعر </Link>
+                <Link to="/Quotes">  مجال الشعر </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item className='NavDropDownItem'>  
                 <Link to="/HumanSc">  مجال العلوم الاساسيه </Link>

@@ -111,7 +111,7 @@ const MainNav = () => {
                 <Link to="/Discretion">  التقديريه </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item>  
-                <Link to="/َQuotes">  مجال الشعر </Link>
+                <Link to="/Quotes">  مجال الشعر </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item>  
                 <Link to="/HumanSc">  مجال العلوم الاساسيه </Link>
@@ -150,7 +150,7 @@ const MainNav = () => {
                 <Link to="/ReqSteps">     خطوات التقديم علي الجائزه </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item>  
-                <Link to="/َPrizeArbit">   شئون التحكيم   </Link>
+                <Link to="/PrizeArbit">   شئون التحكيم   </Link>
                 </NavDropdown.Item>
             </NavDropdown></Col>
             

@@ -15,6 +15,9 @@ import ChangePass from './components/ChangePass';
 import Contact from "./components/Contact"
 import PrizeQuest from "./components/PrizeQuest"
 import PrizeNeeds from "./components/PrizeNeeds"
+import PrizeArbit from "./components/PrizeArbit"
+import Discretion from "./components/Discretion"
+import Quotes from "./components/Quotes"
 
 
 import 'bootstrap/dist/css/bootstrap.css';
@@ -42,6 +45,9 @@ const App = () => {
           <Route path='/ChangePass' element={<ChangePass />} />
           <Route path='/PrizeQuest' element={<PrizeQuest />} />
           <Route path='/PrizeNeeds' element={<PrizeNeeds />} />
+          <Route path='/PrizeArbit' element={<PrizeArbit />} />
+          <Route path='/Discretion' element={<Discretion />} />
+          <Route path='/Quotes' element={<Quotes />} />
           
         </Routes>
       </BrowserRouter>
