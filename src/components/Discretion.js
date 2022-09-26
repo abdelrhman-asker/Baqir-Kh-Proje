@@ -14,7 +14,7 @@ const Discretion = () => {
         <Container className='MainHomeRowFContExpand ProfileInfoMainCont'>
         <Col xs='12'  md="12" className='MainHomeRow' col={6}>
             <div  className='MainHomeRowFDivExpand'>
-              <h3>  التقديريه</h3>
+              <h3>  التقديرية </h3>
                 <span>
                   <img src={CircStyl} />
                 </span>

@@ -5,7 +5,7 @@ import HomeData from './HomeData'
 
 const MainHome = () => {
   return (
-    <div className='MainHomeMAinDiv'>
+    <div >
         
         <FirstNav />
 

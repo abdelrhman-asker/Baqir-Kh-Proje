@@ -1,11 +1,11 @@
 import React from 'react'
 import MainFooter from './MainFooter'
 import HomeData from './HomeData'
-import MainNav from './FirstNav'
+import MainNav from './MainNav'
 
 const MainHome = () => {
   return (
-    <div className='MainHomeMAinDiv'>
+    <div >
         
         <MainNav />
 

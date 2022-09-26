@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css';
+import FirstHome from './components/FirstHome';
 import MainHome from './components/MainHome';
 import MainHomeExpand from './components/MainHomeExpand';
 import AboutBaqir from './components/AboutBaqir';
@@ -30,7 +31,7 @@ const App = () => {
       
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<MainHome />} />
+          <Route path='/' element={<FirstHome />} />
           <Route path='/MainHome' element={<MainHome />} />
           <Route path='/Contact' element={<Contact />} />
           <Route path='/MainHomeExpand' element={<MainHomeExpand />} />
