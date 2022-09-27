@@ -12,7 +12,8 @@ const MainHome = () => {
           <Container className='MainHomeRowFContExpand'>
           <Col xs='12'  md="12" className='MainHomeRow' col={6}>
             <div  className='MainHomeRowFDivExpand'>
-              <h3>  التعريف بالجائزه</h3>
+              <h3>
+              التعريف بالجائزة                 </h3>
                 <span>
                   <img src={CircStyl} />
                 </span>
@@ -31,7 +32,7 @@ const MainHome = () => {
 
                 </h4>
 
-                    <span>مقر اجائزة:</span>
+                    <span>مقر الجائزة:</span>
 
                 <h4>
                     يكون مقر ومركز نشاط الجائزة الرئيسي محافظة الأحساء.

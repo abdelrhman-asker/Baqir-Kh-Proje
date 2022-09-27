@@ -69,8 +69,9 @@ body {
     text-decoration: none;
     float: right;
     height: fit-content;
-    width: fit-content;
+    width: 100%;
     margin: 5px;
+
 }
 .NavDropDownLinks:hover {
     color: white;
@@ -80,7 +81,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
 }
 .MainNavlinks a {
     text-decoration: none;
@@ -118,6 +119,7 @@ body {
     height: fit-content;
     position: relative;
     height: 20px;
+    text-align: end;
     
   }
   .search-input input:focus{
@@ -184,10 +186,6 @@ body {
     justify-content: center;
     flex-wrap: nowrap;
     padding-bottom: 20px;
-    
-}
-.MainGreenNavRow div{
-    padding: 0;
     
 }
 .NavDropDownStyleDrop {
@@ -261,6 +259,12 @@ body {
 .CanvasStylingOnNAv button {
     padding: 0 !important;
 }
+.MainGreenNavCont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+/* start of green nav  section media  query */
 @media screen and (min-width:1px ) and (max-width:992px) {
     .CanvasStylingOnNAv {
         display: block;
@@ -331,7 +335,7 @@ body {
     top: 0%;
 }}
 
-/* End of  Green Nav Section */
+/* End of  Green Nav Section media query */
 /* End of  Green Nav Section */
 
 
@@ -440,6 +444,7 @@ body {
     margin-bottom: 0;
     font-size: 30px;
     color: #707070;
+    font-family: Almarai;
 }
 .MainHomeRowSDiv {
     direction: rtl;
@@ -640,7 +645,7 @@ body {
 .MainHomeexpandDiv h4 {
 font-size: 22px;
 color: #707070;
-
+line-height: 40px;
 }
 
 .MainHomeexpandDiv {
@@ -656,6 +661,7 @@ color: #707070;
 .MainHomeexpandDiv span {
     font-family: Almarai ;
     font-size: 22px;
+    
 
 }
 @media screen and (min-width:1px) and (max-width:510px) {
@@ -689,6 +695,7 @@ color: #707070;
 }
 .AboutBaqirMainDiv  span {
     font-size: 22px;
+    font-family: Almarai;
 }
 .AboutBaqirMainDiv  h4 {
     font-size: 22px;
@@ -1237,3 +1244,17 @@ color: #707070;
     }
 }
 /* End of Reset Password section */
+
+/* Start of Speach1 and Speach2 Section */
+.SpeachOneMainDiv {
+    margin: 0px 0 250px;
+}
+.SpeachTwoMainDiv {
+    margin: 0 0 100px;
+}
+/* End of Speach1 and Speach2 Section */
+/* Start of App  Forms Section */
+.AppFormsMainCont {
+    margin: 100px 0 250px;
+}
+/* End of App Forms Section */

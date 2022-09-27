@@ -50,7 +50,7 @@ const SignIn = () => {
       if (!values.conemail){
           errors.conemail = "Confirm email is Required"
       } else if (values.conemail !== values.email) {
-          errors.conemail = "Please Chech Your email"
+          errors.conemail = "Please Check Your email"
 
       }
       if (!values.password){

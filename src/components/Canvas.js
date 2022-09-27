@@ -47,7 +47,7 @@ const Canvas = () => {
               </Nav.Link>
 
             <Nav.Link className='NavDropDownStyle HidAndBlock' href="#pricing">
-            <Link to="/">   الرئيسيه </Link>
+            <Link to="/">   الرئيسية  </Link>
             </Nav.Link>
 
             <Nav.Link className='NavDropDownStyle HidAndBlock' href="#pricing">

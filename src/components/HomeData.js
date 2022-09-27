@@ -13,7 +13,9 @@ const MainHome = () => {
           <Container  className='MainHomeCont'>
           <Col  xs="12" md="9" className='MainHomeRow' col={6}>
             <div  className='MainHomeRowFDiv'>
-              <h3>  التعريف بالجائزه</h3>
+              <h3>
+              التعريف بالجائزة 
+                                </h3>
                 <span>
                   <img src={CircStyl} />
                 </span>

@@ -50,7 +50,7 @@ const ChangePass = () => {
       if (!values.conpassword){
           errors.conpassword = "Please confirm your password is Required"
       } else if  (values.conpassword !== values.newpassword){
-          errors.conpassword = "Please Chech Your password"
+          errors.conpassword = "Please Check Your password"
 
       }
       return errors;

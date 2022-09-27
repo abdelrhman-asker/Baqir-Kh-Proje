@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from "react";
 import './App.css';
 import FirstHome from './components/FirstHome';
 import MainHome from './components/MainHome';
@@ -25,17 +25,24 @@ import MedicalSc from "./components/MedicalSc"
 import AgrSc from "./components/AgrSc"
 import EngSc from "./components/EngSc"
 import AppForms from "./components/AppForms"
+import Speach1 from "./components/Speach1"
+import Speach2 from "./components/Speach2"
+import AboutSite from "./components/AboutSite"
+import PrivPol from "./components/PrivPol"
 
 
 import 'bootstrap/dist/css/bootstrap.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   return (
     <div>
       
       <BrowserRouter>
+      <ScrollToTop />
         <Routes>
+          <Route path="*" element={<FirstHome />} />
           <Route path='/' element={<FirstHome />} />
           <Route path='/MainHome' element={<MainHome />} />
           <Route path='/Contact' element={<Contact />} />
@@ -61,7 +68,11 @@ const App = () => {
           <Route path='/AgrSc' element={<AgrSc />} />
           <Route path='/EngSc' element={<EngSc />} />
           <Route path='/AppForms' element={<AppForms />} />
-          
+          <Route path='/Speach1' element={<Speach1 />} />
+          <Route path='/Speach2' element={<Speach2 />} />
+          <Route path='/AboutSite' element={<AboutSite />} />
+          <Route path='/PrivPol' element={<PrivPol />} />
+
         </Routes>
       </BrowserRouter>
     </div>

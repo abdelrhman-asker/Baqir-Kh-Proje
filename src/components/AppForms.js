@@ -9,7 +9,7 @@ const AppForms = () => {
     <div className='MainHomeExMainDiv'>
         <MainNav />
 
-          <Container className='MainHomeRowFContExpand'>
+          <Container className='MainHomeRowFContExpand AppFormsMainCont'>
           <Col xs='12'  md="12" className='MainHomeRow' col={6}>
             <div  className='MainHomeRowFDivExpand'>
               <h3>  نماذج التقديم 
@@ -21,11 +21,11 @@ const AppForms = () => {
               </div>
               </Col>
 
-            <Col xs='12' md="6" className='MainHomeRowSDivExpand'>
+            <Col xs='12' md="8" className='MainHomeRowSDivExpand AppFormsMainCol'>
               <div className='MainHomeexpandDiv'> 
               <h4>
               لخطوات التقديم وتعبئة النماذج يرجى الإطلاع على الخطوات الإرشادية                
-                  <Link to='/ReqSteps' >Admin1@baqeraward.net</Link>
+                  <Link to='/ReqSteps' >مـن هنــا...</Link>
                     </h4>
 
               <h4>

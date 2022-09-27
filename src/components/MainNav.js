@@ -5,11 +5,9 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Nav from 'react-bootstrap/Nav';
 import { Input } from 'reactstrap';
 import { BsSearch } from 'react-icons/bs';
-import { FaTiktok } from 'react-icons/fa';
-import { RiSnapchatLine } from 'react-icons/ri';
-import { AiOutlineWhatsApp } from 'react-icons/ai';
-import { AiOutlineInstagram } from 'react-icons/ai';
-import { FiTwitter } from 'react-icons/fi';
+import { BsWhatsapp } from 'react-icons/bs';
+import { BsInstagram } from 'react-icons/bs';
+import { BsTwitter } from 'react-icons/bs';
 import { Link } from "react-router-dom";
 import Maqir from "../photos/Group 39.png"
 import Logo from "../photos/اللوجو.png"
@@ -28,9 +26,9 @@ const MainNav = () => {
         <Col col={4} className="SearchLinksRight" >
        
             <div className='MainNavlinks'>
-                    <a href='https://api.whatsapp.com/send/?phone=966538998008&text&type=phone_number&app_absent=0' target="_blank"><AiOutlineWhatsApp /></a>
-                    <a href='https://twitter.com/baqeraward?s=21&t=oHXMIvQ1PEGYTp4fcNNBJA' target="_blank"><FiTwitter /></a>
-                    <a href='https://instagram.com/baqeraward?igshid=NTlmMWMyMzg=' target="_blank"><AiOutlineInstagram /></a>
+                    <a href='https://api.whatsapp.com/send/?phone=966538998008&text&type=phone_number&app_absent=0' target="_blank"><BsWhatsapp /></a>
+                    <a href='https://twitter.com/baqeraward?s=21&t=oHXMIvQ1PEGYTp4fcNNBJA' target="_blank"><BsTwitter /></a>
+                    <a href='https://instagram.com/baqeraward?igshid=NTlmMWMyMzg=' target="_blank"><BsInstagram /></a>
                  
                   </div>
             <div className="wrapper" >
@@ -49,7 +47,7 @@ const MainNav = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto ToMakeHundHei">
           <NavDropdown className='NavDropDownStyle' title="حسابي" style={{direction:'rtl'}} id="dropdown-autoclose-inside" >
-              <NavDropdown.Item className='NavDropDownItem' >
+              <NavDropdown.Item  className='NavDropDownItem' >
                 <Link className='NavDropDownLinks' to='/ProfileInfo'>المعلومات الشخصيه</Link>
               </NavDropdown.Item>
               <NavDropdown.Item className='NavDropDownItem' >
@@ -85,7 +83,7 @@ const MainNav = () => {
 <div className='MainGreenNav'>
 
     <Container className='MainGreenNavCont' col={12}>
-      <Row className='MainGreenNavRow' col={12}>
+      <Col xs='11'  md="11" xl="10" className='MainGreenNavRow' >
         <Col><NavDropdown className='NavDropDownStyleDrop' style={{direction:'rtl'}}
               id="nav-dropdown-dark-example"
               title="المركز الاعلامي"
@@ -157,10 +155,10 @@ const MainNav = () => {
         <Link to="/AboutBaqir">   عن الشيخ بقير </Link>
         </Col>
         <Col className='NavDropDownStyleGr'>
-        <Link to="/">   الرئيسيه </Link>
+        <Link to="/">   الرئيسية  </Link>
 
         </Col>
-      </Row>
+      </Col>
     </Container>
 
     <Container className='LastNavCont'>
@@ -169,7 +167,9 @@ const MainNav = () => {
         <img    src={Maqir} />
         </Col>
         <Col xs={4} className='LastNavParaCol'>
-        <h3 className='LastNavPara'>حمل نموذج التقديم للمنافسه علي الجائزه </h3>
+        <h3 className='LastNavPara'>
+        حمل نموذج التقديم للمنافسة على الجائزة       
+            </h3>
         </Col>
         <Col  >
         <Link xs={4} to="/">
