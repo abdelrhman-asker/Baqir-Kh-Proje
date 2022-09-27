@@ -646,8 +646,7 @@ body {
 font-size: 22px;
 color: #707070;
 line-height: 40px;
-display: flex;
-flex-wrap: nowrap;
+
 }
 
 .MainHomeexpandDiv {
@@ -663,6 +662,8 @@ flex-wrap: nowrap;
 .MainHomeexpandDiv span {
     font-family: Almarai ;
     font-size: 22px;
+    display: flex;
+    flex-wrap: nowrap;
     
 
 }
