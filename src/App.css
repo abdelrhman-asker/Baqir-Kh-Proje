@@ -646,8 +646,8 @@ body {
 font-size: 22px;
 color: #707070;
 line-height: 40px;
-/* display: flex;
-flex-wrap: nowrap; */
+display: flex;
+flex-wrap: nowrap;
 }
 
 .MainHomeexpandDiv {
