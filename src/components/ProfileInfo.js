@@ -37,7 +37,7 @@ const Profileinfo = () => {
               </Col>
 
               
-        <Col xs='10'  md="12" className='MainHomeRow' col={6}>
+        <Col xs='10'  lg="12" className='MainHomeRow' col={6}>
             <div  className='ProfAboutTableText'>
                 <Table>
                     <tr>

@@ -1085,10 +1085,11 @@ line-height: 40px;
     border-radius: 20px;
 }
 .ProfAboutTableText th {
-    padding-right: 40px;
+    padding-right: 20px;
     font-size: 28px;
     font-family: Almarai;
     color: #707070;
+    width: 25%;
 }
 .ProfAboutTableText td {
     display: flex;
@@ -1101,13 +1102,18 @@ line-height: 40px;
     font-family: Noor;
     color: #707070;
     opacity: 0.8;
+    width: 90%;
 }
-@media screen and (min-width:1px) and (max-width:610px) {
+@media screen and (min-width:1px) and (max-width:776px) {
     .ProfAboutTableText th {
         font-size: 10px;
     }
     .ProfAboutTableText td {
         font-size: 10px;
+    }
+    .ProfAboutTableText td {
+        opacity: 0.8;
+        width: 100%;
     }
     
 }
