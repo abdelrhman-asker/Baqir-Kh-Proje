@@ -12,7 +12,7 @@ const Discretion = () => {
     <div  className='MainHomeExMainDiv'>
         <MainNav />
         <Container className='MainHomeRowFContExpand ProfileInfoMainCont DiscTableMainCont'>
-        <Col xs='12'  md="12" className='MainHomeRow' col={6}>
+        <Col xs='11'  md="10" className='MainHomeRow' col={6}>
             <div  className='MainHomeRowFDivExpand'>
               <h3>  التقديرية </h3>
                 <span>
@@ -23,7 +23,7 @@ const Discretion = () => {
       
 
               
-        <Col xs='10'  md="12" className='MainHomeRow' col={6}>
+        <Col  className='MainHomeRow' col={6}>
             <div  className=' DiscTableText'>
                 <Table className=' DiscTableTextTTwo'>
                     <tr className='DiscTableTextRow '>
@@ -55,6 +55,23 @@ const Discretion = () => {
 
 
         </Container>
+        <Container xs='11'  md="10" className='MainHomeRowTwo'>
+  <h3>2023</h3>
+  <Row  xs="12" className='MainHomeRowTwoMaDiv'>
+    <Col xs="3" className='MainHomeRowTwoColOne'>المركز الاول</Col>
+    <Col xs="8" className='MainHomeRowTwoColTwo'></Col>
+  </Row>
+  <Row  xs="12" className='MainHomeRowTwoMaDiv'>
+    <Col xs="3" className='MainHomeRowTwoColOne'>المركز الثاني</Col>
+    <Col xs="8" className='MainHomeRowTwoColTwo'></Col>
+  </Row>
+  <Row  xs="12" className='MainHomeRowTwoMaDiv'>
+    <Col xs="3" className='MainHomeRowTwoColOne'>المركز الثالث</Col>
+    <Col xs="8" className='MainHomeRowTwoColTwo'></Col>
+  </Row>
+  
+
+</Container>
 
 
 

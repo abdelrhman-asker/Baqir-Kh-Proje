@@ -61,10 +61,10 @@ const Canvas = () => {
                 <Link to="/َPrizeَِQuest">   الرؤيه والرساله والاهداف </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item  className='NavDropDownItem'>  
-                <Link to="/َPrizeNeeds">    متطلبات عامه </Link>
+                <Link to="/PrizeNeeds">    متطلبات عامه </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item  className='NavDropDownItem'>  
-                <Link to="/َPrizeSign">     خطوات التقديم علي الجائزه </Link>
+                <Link to="/ReqSteps">     خطوات التقديم علي الجائزه </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item  className='NavDropDownItem'>  
                 <Link to="/َPrizeArbit">   شئون التحكيم   </Link>

@@ -55,6 +55,23 @@ const MedicalSc = () => {
 
 
         </Container>
+        <Container xs='11'  md="10" className='MainHomeRowTwo'>
+  <h3>2023</h3>
+  <Row  xs="12" className='MainHomeRowTwoMaDiv'>
+    <Col xs="3" className='MainHomeRowTwoColOne'>المركز الاول</Col>
+    <Col xs="8" className='MainHomeRowTwoColTwo'></Col>
+  </Row>
+  <Row  xs="12" className='MainHomeRowTwoMaDiv'>
+    <Col xs="3" className='MainHomeRowTwoColOne'>المركز الثاني</Col>
+    <Col xs="8" className='MainHomeRowTwoColTwo'></Col>
+  </Row>
+  <Row  xs="12" className='MainHomeRowTwoMaDiv'>
+    <Col xs="3" className='MainHomeRowTwoColOne'>المركز الثالث</Col>
+    <Col xs="8" className='MainHomeRowTwoColTwo'></Col>
+  </Row>
+  
+
+</Container>
 
 
 

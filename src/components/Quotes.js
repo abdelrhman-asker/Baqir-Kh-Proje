@@ -23,8 +23,9 @@ const Quotes = () => {
               </Col>
       
               
-        <Col xs='10'  md="12" className='MainHomeRow' col={6}>
+        <Col xs='11'  md="10" className='MainHomeRowOne' col={6}>
             <div  className=' DiscTableText'>
+              <Col>
                 <Table className=' DiscTableTextTTwo'>
                     <tr className='DiscTableTextRow '>
                         <td colSpan={1}> العام</td>
@@ -34,6 +35,8 @@ const Quotes = () => {
                     </tr>
                    
                 </Table>
+                </Col>
+                <Col >
                 <Table  className=' DiscTableTextTTwo DiscTableTextTsec'>
                     <tr className='DiscTableTextRow '>
                         <td colSpan={1}>2023</td>
@@ -43,7 +46,7 @@ const Quotes = () => {
                     </tr>
                    
                 </Table>
-               
+                </Col>
                
               </div>
               </Col>
@@ -56,7 +59,23 @@ const Quotes = () => {
 
         </Container>
 
+        <Container xs='11'  md="10" className='MainHomeRowTwo'>
+  <h3>2023</h3>
+  <Row  xs="12" className='MainHomeRowTwoMaDiv'>
+    <Col xs="3" className='MainHomeRowTwoColOne'>المركز الاول</Col>
+    <Col xs="8" className='MainHomeRowTwoColTwo'></Col>
+  </Row>
+  <Row  xs="12" className='MainHomeRowTwoMaDiv'>
+    <Col xs="3" className='MainHomeRowTwoColOne'>المركز الثاني</Col>
+    <Col xs="8" className='MainHomeRowTwoColTwo'></Col>
+  </Row>
+  <Row  xs="12" className='MainHomeRowTwoMaDiv'>
+    <Col xs="3" className='MainHomeRowTwoColOne'>المركز الثالث</Col>
+    <Col xs="8" className='MainHomeRowTwoColTwo'></Col>
+  </Row>
+  
 
+</Container>
 
         <MainFooter />
     </div>

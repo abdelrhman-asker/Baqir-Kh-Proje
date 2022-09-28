@@ -225,9 +225,11 @@ body {
 
 .LastNavCont {
     max-width: 100% !important;
+    width: 100vw;
+    overflow-x: hidden;
 }
 .LastNavRow {
-    justify-content: space-between !important;
+    justify-content: center !important;
     align-items: center;
     flex-wrap: nowrap !important;
 
@@ -263,6 +265,15 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
+}
+.LastNavParaCol {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.LastNavLogoCol {
+    display: flex;
+    justify-content: center;
 }
 /* start of green nav  section media  query */
 @media screen and (min-width:1px ) and (max-width:992px) {
@@ -315,6 +326,9 @@ body {
     .HidAndBlock {
         display: block !important;
     }
+    .LastNavLogoCol img {
+        width: 80px !important;
+    }
 }
 @media screen and (min-width:1px ) and (max-width:510px) {
 
@@ -333,7 +347,19 @@ body {
     font-size: 32px !important;
     position:  absolute;
     top: 0%;
-}}
+}
+.LastNavMaqirCol img {
+    width: 60px;
+}
+.LastNavLogoCol img {
+    width: 40px !important;
+}
+.LastNavParaCol {
+    width: fit-content !important;
+}
+
+
+}
 
 /* End of  Green Nav Section media query */
 /* End of  Green Nav Section */
@@ -414,7 +440,7 @@ body {
 /* End of Footer Style */
 
 
-/* Start of Main Home Style (1st Section) */
+
 .MainHomeMAinDiv {
     background-image: url(./photos/Rotatedpic.png), url(./photos/Rotatedpic.png) !important;
     background-repeat: no-repeat;
@@ -1226,9 +1252,64 @@ line-height: 40px;
     width: fit-content;
 }
 .DiscTableTextTTwo td {
-    width: 200px;
+    width: 250px;
     text-align: center;
     border-left: 2px solid rgba(0, 0, 0, 0.081);
+}
+.MainHomeRowTwo{
+    display: none !important;
+}
+@media screen and (min-width:1px) and  (max-width:771px) {
+    .DiscTableText {
+   display: none;
+}
+    .MainHomeRowTwo{
+        display: flex !important;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0 400px !important;
+    }
+    .MainHomeRowTwoMaDiv{
+        direction: rtl;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        gap: 1%;
+
+
+    }   
+    .MainHomeRowTwoColOne {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #E6E6E6;
+        width: fit-content !important;
+        padding: 20px;
+        border-radius: 20px;
+        font-size: 10px;
+        height: 70px;
+        margin-bottom: 20px;
+    }
+    .MainHomeRowTwoColTwo {
+        font-size: 12px;
+        height: 70px;
+        margin-bottom: 20px;
+        content: "";
+
+        background-color: #FAFAFA;
+        border-radius: 20px;
+        min-height: 100%;
+
+    }
+    .DiscTableMainCont {
+        margin-bottom: 0 !important;
+    }
 }
 /* End of Discretion Section */
 
