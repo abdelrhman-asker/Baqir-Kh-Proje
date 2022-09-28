@@ -126,13 +126,13 @@ const MainNav = () => {
         </Col>
 
         <Col className='NavDropDownStyleGr'>
-        <Link to="/PrizeCo">  مجالات الجائزه </Link>
+        <Link to="/PrizeCo">  مجالات الجائزة  </Link>
         </Col>
 
         <Col>
         <NavDropdown className='NavDropDownStyleDrop' style={{direction:'rtl'}}
               id="nav-dropdown-dark-example"
-              title=" عن الجائزه "
+              title=" عن الجائزة  "
               menuVariant="dark">
               <NavDropdown.Item>  
                 <Link to="/MainHomeExpand">  التعريف بها </Link>

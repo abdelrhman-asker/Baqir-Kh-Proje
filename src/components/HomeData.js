@@ -31,7 +31,7 @@ const MainHome = () => {
               </div>
               </Col>
             <Col xs="12" md="9" className='MainHomeLinkCol'>
-              <Link to="/MainHomeExpand" >متابعه القراءة</Link>
+              <Link to="/MainHomeExpand" >متابعة القراءة</Link>
             </Col>
 
           </Container>
