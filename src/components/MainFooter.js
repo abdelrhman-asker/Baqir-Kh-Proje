@@ -12,7 +12,7 @@ const MainFooter = () => {
         <Row className='FirstFooterCont' col={12}>
           <Col className='ColFooterCont' col={4}>
             <div className='ColFooterContDiv'>
-            <h4>كلمات ترحيبيه</h4>
+            <h4>كلمات ترحيبية </h4>
               <div>
                 
                 <Link to="/Speach1">كلمه مجلس الامناء</Link>
@@ -22,7 +22,7 @@ const MainFooter = () => {
               </div>
               <div>
                 
-                <Link to="/Speach2">كلمه الاداره التنفيذيه</Link>
+                <Link to="/Speach2">كلمة الإدارة التنفيذية</Link>
                 <span>
                   <img src={CircStyl} />
                 </span>
@@ -55,7 +55,7 @@ const MainFooter = () => {
             <h4>روابط مهمة</h4>
               <div>
                 
-                <Link to="/PrivPol">   سياسه الخصوصيه</Link>
+                <Link to="/PrivPol">   سياسة الخصوصية</Link>
                 <span>
                   <img src={CircStyl} />
                 </span>
@@ -69,7 +69,7 @@ const MainFooter = () => {
         <Row className='LastFooterPara'>
           <h4>
            <span> جميع الحقوق محفوظه </span>
-           <span> لمؤسسه رضاء حسن باقر ابوخمسين الوفقيه </span> 
+           <span>لمؤسسة رضاء حسن باقر ابوخمسين الوفقية  </span> 
           </h4>
         </Row>
       </Container>

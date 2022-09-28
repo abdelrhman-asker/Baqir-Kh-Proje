@@ -101,22 +101,22 @@ const MainNav = () => {
               title="سجل الشرف"
               menuVariant="dark">
               <NavDropdown.Item>  
-                <Link to="/Discretion">  التقديريه </Link>
+                <Link to="/Discretion">  التقديرية </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item>  
                 <Link to="/Quotes">  مجال الشعر </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item>  
-                <Link to="/HumanSc">  مجال العلوم الاساسيه </Link>
+                <Link to="/HumanSc">  مجال العلوم الإنسانية </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item>  
-                <Link to="/MedicalSc">   مجال العلوم الطبيه </Link>
+                <Link to="/MedicalSc">   مجال العلوم الطبية </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item>  
-                <Link to="/AgrSc">  مجال الزراعيه   </Link>
+                <Link to="/AgrSc">  مجال العلوم الزراعية   </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item>  
-                <Link to="/EngSc">  مجال الهندسيه </Link>
+                <Link to="/EngSc">  مجال العلوم الهندسية </Link>
                 </NavDropdown.Item>
             </NavDropdown>
         </Col>
@@ -137,10 +137,10 @@ const MainNav = () => {
                 <Link to="/PrizeQuest">   الرؤيه والرساله والاهداف </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item>  
-                <Link to="/PrizeNeeds">    متطلبات عامه </Link>
+                <Link to="/PrizeNeeds">    متطلبات عامة </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item>  
-                <Link to="/ReqSteps">     خطوات التقديم علي الجائزه </Link>
+                <Link to="/ReqSteps">     خطوات التقديم علي الجائزة </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item>  
                 <Link to="/PrizeArbit">   شئون التحكيم   </Link>

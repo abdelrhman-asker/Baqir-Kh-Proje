@@ -24,13 +24,13 @@ const Canvas = () => {
         <Nav className="ms-auto ToMakeHundHei">
           <NavDropdown className='NavDropDownStyle' title="حسابي" style={{direction:'rtl'}} id="collasible-nav-dropdown">
               <NavDropdown.Item className='NavDropDownItem' >
-                <Link className='NavDropDownLinks' to='/ProfileInfo'>المعلومات الشخصيه</Link>
+                <Link className='NavDropDownLinks' to='/ProfileInfo'>المعلومات الشخصية</Link>
               </NavDropdown.Item>
               <NavDropdown.Item className='NavDropDownItem' >
               <Link className='NavDropDownLinks' to='/models'>النماذج المسلمة</Link>
               </NavDropdown.Item>
               <NavDropdown.Item className='NavDropDownItem' >
-              <Link className='NavDropDownLinks' to='/ChangePass'>تغيير كلمه المرور</Link>
+              <Link className='NavDropDownLinks' to='/ChangePass'>تغيير كلمة المرور</Link>
               </NavDropdown.Item>
               <NavDropdown.Item className='NavDropDownItem' >
               <Link className='NavDropDownLinks' to='/SignIn'>تسجيل الدخول</Link>
@@ -62,13 +62,13 @@ const Canvas = () => {
                 <Link to="/MainHomeExpand">  التعريف بها </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item  className='NavDropDownItem'>  
-                <Link to="/PrizeQuest">   الرؤيه والرساله والاهداف </Link>
+                <Link to="/PrizeQuest">   الرؤية والرسالة والأهداف  </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item  className='NavDropDownItem'>  
-                <Link to="/َPrizeNeeds">    متطلبات عامه </Link>
+                <Link to="/َPrizeNeeds">    متطلبات عامة  </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item  className='NavDropDownItem'>  
-                <Link to="/َPrizeSign">     خطوات التقديم علي الجائزه </Link>
+                <Link to="/َPrizeSign">     خطوات التقديم على الجائزة  </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item  className='NavDropDownItem'>  
                 <Link to="/PrizeArbit">   شئون التحكيم   </Link>
@@ -85,22 +85,22 @@ const Canvas = () => {
               title="سجل الشرف"
               menuVariant="dark">
               <NavDropdown.Item className='NavDropDownItem'>  
-                <Link to="/Discretion">  التقديريه </Link>
+                <Link to="/Discretion">  التقديرية  </Link>
                 </NavDropdown.Item >
               <NavDropdown.Item className='NavDropDownItem'>  
                 <Link to="/Quotes">  مجال الشعر </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item className='NavDropDownItem'>  
-                <Link to="/HumanSc">  مجال العلوم الاساسيه </Link>
+                <Link to="/HumanSc">  مجال العلوم الإنسانية  </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item className='NavDropDownItem'>  
-                <Link to="/MedicalSc">   مجال العلوم الطبيه </Link>
+                <Link to="/MedicalSc">   مجال العلوم الطبية  </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item className='NavDropDownItem'>  
-                <Link to="/AgrSc">  مجال الزراعيه   </Link>
+                <Link to="/AgrSc">  مجال العلوم الزراعية    </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item className='NavDropDownItem'>  
-                <Link to="/EngSc">  مجال الهندسيه </Link>
+                <Link to="/EngSc">  مجال العلوم الهندسية  </Link>
                 </NavDropdown.Item>
             </NavDropdown>
 
