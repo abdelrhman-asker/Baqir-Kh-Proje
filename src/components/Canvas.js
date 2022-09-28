@@ -56,7 +56,7 @@ const Canvas = () => {
 
             <NavDropdown className='NavDropDownStyle HidAndBlock' style={{direction:'rtl'}}
               id="nav-dropdown-dark-example"
-              title=" عن الجائزه "
+              title=" عن الجائزة  "
               menuVariant="dark">
               <NavDropdown.Item  className='NavDropDownItem'>  
                 <Link to="/MainHomeExpand">  التعريف بها </Link>
@@ -76,7 +76,7 @@ const Canvas = () => {
             </NavDropdown>
             
             <Nav.Link className='NavDropDownStyle HidAndBlock' href="#features">
-            <Link to="/PrizeCo">  مجالات الجائزه </Link>
+            <Link to="/PrizeCo">  مجالات الجائزة  </Link>
               </Nav.Link>
             
               
