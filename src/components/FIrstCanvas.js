@@ -43,28 +43,28 @@ const Canvas = () => {
               </Nav.Link>
 
             <Nav.Link className='NavDropDownStyle HidAndBlock' href="#pricing">
-            <Link to="/">   الرئيسيه </Link>
+            <Link to="/">   الرئيسية </Link>
             </Nav.Link>
-
+            
             <Nav.Link className='NavDropDownStyle HidAndBlock' href="#pricing">
-            <Link to="/AboutBaqir">  مجالات الجائزه </Link>
+            <Link to="/AboutBaqir">  عن الشيخ باقر </Link>
             </Nav.Link>
 
             <NavDropdown className='NavDropDownStyle HidAndBlock' style={{direction:'rtl'}}
               id="nav-dropdown-dark-example"
-              title=" عن الجائزه "
+              title=" عن الجائزة "
               menuVariant="dark">
               <NavDropdown.Item  className='NavDropDownItem'>  
                 <Link to="/MainHomeExpand">  التعريف بها </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item  className='NavDropDownItem'>  
-                <Link to="/َPrizeَِQuest">   الرؤيه والرساله والاهداف </Link>
+                <Link to="/َPrizeَِQuest">   الرؤية والرسالة والاهداف </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item  className='NavDropDownItem'>  
-                <Link to="/PrizeNeeds">    متطلبات عامه </Link>
+                <Link to="/PrizeNeeds">    متطلبات عامة </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item  className='NavDropDownItem'>  
-                <Link to="/ReqSteps">     خطوات التقديم علي الجائزه </Link>
+                <Link to="/ReqSteps">     خطوات التقديم على الجائزة </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item  className='NavDropDownItem'>  
                 <Link to="/َPrizeArbit">   شئون التحكيم   </Link>
@@ -72,7 +72,7 @@ const Canvas = () => {
             </NavDropdown>
             
             <Nav.Link className='NavDropDownStyle HidAndBlock' href="#features">
-            <Link to="/PrizeCo">  مجالات الجائزه </Link>
+            <Link to="/PrizeCo">  مجالات الجائزة </Link>
               </Nav.Link>
             
               
@@ -81,22 +81,22 @@ const Canvas = () => {
               title="سجل الشرف"
               menuVariant="dark">
               <NavDropdown.Item className='NavDropDownItem'>  
-                <Link to="/Discretion">  القديريه </Link>
+                <Link to="/Discretion">  التقديرية </Link>
                 </NavDropdown.Item >
               <NavDropdown.Item className='NavDropDownItem'>  
                 <Link to="/َQuotes">  مجال الشعر </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item className='NavDropDownItem'>  
-                <Link to="/HumanSc">  مجال العلوم الاساسيه </Link>
+                <Link to="/HumanSc">  مجال العلوم الإنسانية </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item className='NavDropDownItem'>  
-                <Link to="/MedicalSc">   مجال العلوم الطبيه </Link>
+                <Link to="/MedicalSc">   مجال العلوم الطبية </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item className='NavDropDownItem'>  
-                <Link to="/AgrSc">  مجال الزراعيه   </Link>
+                <Link to="/AgrSc">  مجال العلوم الزراعية   </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item className='NavDropDownItem'>  
-                <Link to="/EngSc">  مجال الهندسيه </Link>
+                <Link to="/EngSc">  مجال العلوم الهندسية </Link>
                 </NavDropdown.Item>
             </NavDropdown>
 
