@@ -138,7 +138,7 @@ const MainNav = () => {
                 <Link to="/MainHomeExpand">  التعريف بها </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item>  
-                <Link to="/PrizeQuest">   الرؤيه والرساله والاهداف </Link>
+                <Link to="/PrizeQuest">   الرؤية والرسالة والأهداف </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item>  
                 <Link to="/PrizeNeeds">    متطلبات عامة </Link>
@@ -152,7 +152,7 @@ const MainNav = () => {
             </NavDropdown></Col>
             
         <Col className='NavDropDownStyleGr'>
-        <Link to="/AboutBaqir">   عن الشيخ بقير </Link>
+        <Link to="/AboutBaqir">   عن الشيخ باقر </Link>
         </Col>
         <Col className='NavDropDownStyleGr'>
         <Link to="/">   الرئيسية  </Link>

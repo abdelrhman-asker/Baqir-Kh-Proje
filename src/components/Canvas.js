@@ -51,7 +51,7 @@ const Canvas = () => {
             </Nav.Link>
 
             <Nav.Link className='NavDropDownStyle HidAndBlock' href="#pricing">
-            <Link to="/AboutBaqir">  عن الشيخ بقير </Link>
+            <Link to="/AboutBaqir">  عن الشيخ باقر </Link>
             </Nav.Link>
 
             <NavDropdown className='NavDropDownStyle HidAndBlock' style={{direction:'rtl'}}
