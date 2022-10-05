@@ -22,9 +22,9 @@ const SignIn = () => {
       setIsSubmit(true);
   };
   useEffect(() => {
-      console.log(formErrors)
+      // console.log(formErrors)
       if(Object.keys(formErrors).length === 0 && isSubmit ){
-          console.log(formValues)
+          // console.log(formValues)
           navigate("/MainHome")
 
       }
@@ -58,7 +58,7 @@ const SignIn = () => {
         <FirstNav />
         {/* <pre>{JSON.stringify(formValues, undefined, 2)}</pre> */}
 
-        <Container className='ContactMainCont SignInMainCont'>
+        <Container style={{padding: 0}} className='ContactMainCont fluid SignInMainCont'>
         <Col xs='12'  md="12" className='MainHomeRow' col={6}>
             <div  className='MainHomeRowFDivExpand'>
               <h3>   تسجيل الدخول    </h3>
@@ -67,7 +67,7 @@ const SignIn = () => {
                 </span>
               </div>
               </Col>
-        <Col className='ContactMainData  SignInMainData' xs='11'  md="12">
+        <Col className='ContactMainData  SignInMainData' xs='12'  md="12">
             <form onSubmit={handleSubmit} href="/MainHome" className='ContactMainForm SignInMainForm' >
         <div >
             <h4 className='PsuedoEleRed' href="Name">اسم المستخدم</h4>
