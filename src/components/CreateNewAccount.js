@@ -67,7 +67,7 @@ const SignIn = () => {
       }
       if (!values.texta){
           errors.texta = "Please type your resume"
-      } else if  (values.texta.length < 9){
+      } else if  (values.texta.split(" ").length < 3){
           errors.texta = "Please type 3-7 sentences"
 
       }
