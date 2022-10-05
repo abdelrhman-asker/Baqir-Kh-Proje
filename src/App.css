@@ -26,7 +26,8 @@ body {
     overflow: visible;
     background-repeat: no-repeat;
     background-position: 40%;
-   
+    width: 100vw;
+    overflow: hidden;
 }
 .navbar-toggler {
     color: #707070 !important;
@@ -280,7 +281,7 @@ body {
     .CanvasStylingOnNAv {
         display: block;
     } 
-   
+    
     .ToMakeHundHei  {
         height: 100vh;
     }
@@ -294,7 +295,22 @@ body {
         width: 100px;
     }
     .SearchLinksRight {
+        display: block;
+        justify-content: center;
+        align-items: flex-start ;
+        display: flex;
+        
+    }
+    .SearchLinksRight .wrapper{
         display: none;
+        
+    }
+    .MainNavlinks{
+        gap: 20px;
+        margin-left: 20px;
+    }
+    .MainFooterDiv div:first-child {
+        align-items: flex-start;
     }
     .DropDownFixedStyling{
     display: none;
@@ -373,7 +389,7 @@ body {
     background-color: #1d733f58;
     width: 100vw;
     overflow-x: hidden;
-    padding: 50px 0 10px;
+    padding: 50px 0 10px !important;
 }
 .FirstFooterCont {
     flex-direction: row-reverse;
@@ -428,16 +444,30 @@ body {
     color: black;
     opacity: 0.3;
 }
+.ColFooterContDiv a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+}
 
-@media screen and (min-width:1px) and (max-width:510px) {
-    .ColFooterCont h4{
+@media screen and (min-width:1px) and (max-width:576px) {
+    /* .ColFooterCont h4{
         font-size: 12px;
     }
     .FirstFooterCont a {
         font-size: 8px;
-    }
+    } */
     .LastFooterPara h4 {
         font-size: 10px;
+    }
+    .FirstFooterCont {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
     }
 }
 /* End of Footer Style */

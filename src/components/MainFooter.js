@@ -10,7 +10,7 @@ const MainFooter = () => {
     <div col={12} className='MainFooterdiv'>
       <Container col={12} className='MainFooterCont'>
         <Row className='FirstFooterCont' col={12}>
-          <Col className='ColFooterCont' col={4}>
+          <Col className='ColFooterCont' xs={8} sm={4}>
             <div className='ColFooterContDiv'>
             <h4>كلمات ترحيبية </h4>
               <div>
@@ -31,7 +31,7 @@ const MainFooter = () => {
           </Col>
 
 
-          <Col className='ColFooterCont' col={4}>
+          <Col className='ColFooterCont' xs={8} sm={4}>
           <div className='ColFooterContDiv'>
             <h4> احدث المقالات</h4>
               <div>
@@ -50,7 +50,7 @@ const MainFooter = () => {
               </div>
             </div>
           </Col>
-          <Col className='ColFooterCont' col={4}>
+          <Col className='ColFooterCont' xs={8} sm={4}>
           <div className='ColFooterContDiv'>
             <h4>روابط مهمة</h4>
               <div>
